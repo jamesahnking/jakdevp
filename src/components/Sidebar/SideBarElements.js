@@ -69,11 +69,10 @@ export const SidebarLink = styled(LinkScroll) `
     }    
 `;
 
-
 export const SideBtnWrap = styled.div`
     display: flex;
     justify-content: center;
-`
+`;
 
 export const SidebarRoute = styled(LinkRouter)`
   border-radius: 50px;
