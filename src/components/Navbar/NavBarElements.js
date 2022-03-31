@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 
 export const Nav = styled.nav `
-    background: #000;
+    background: #02062E;
     height: 80px;
     // margin-top: -80px;
     justify-content: center;
@@ -103,7 +103,7 @@ cursor: pointer;
 
 export const NavBtnLink = styled(LinkRouter)`
 border-radius: 50px;
-background: #ffea00;
+background: #fff;
 white-space: nowrap;
 padding: 10px 22px;
 color: #010606;
