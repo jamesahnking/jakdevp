@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBars, FaEthereum } from "react-icons/fa";
+import { FaBars, FaGithub, FaMedium } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import {
   MobileIcon,
@@ -10,25 +10,32 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink
-} from "./NavBarElements";
+  NavBtnLink,
+  Img,
+  ImgWrap
+} from './NavBarElements';
 
-const Navbar = ({ toggle }) => {
+
+
+const Navbar = ({ toggle,img,alt }) => {
   return (
     <>
      <IconContext.Provider value={{ color: '#fff' }}>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">jak</NavLogo>
+          
+          <NavLogo to="/">
+            <ImgWrap>
+                  <Img src={img} alt={alt} />
+            </ImgWrap>
+          </NavLogo>
 
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
 
           <NavMenu>
-            <NavItem>
-              <NavLinks to="about"> About</NavLinks>
-            </NavItem>
+
 
             <NavItem>
               <NavLinks to="multisigwallet">Multisig Wallet </NavLinks>
@@ -48,12 +55,28 @@ const Navbar = ({ toggle }) => {
             </NavItem>
 
             <NavItem>
-              <NavLinks to="geranimals">CV</NavLinks>
+              <NavLinks to="about"> About Me</NavLinks>
             </NavItem>
-          </NavMenu>
 
+            <NavItem>
+              <NavLinks to="geranimals">
+                  <FaGithub />
+              </NavLinks>
+            </NavItem>
+
+
+            <NavItem>
+              <NavLinks to="geranimals">
+                  <FaMedium />
+              </NavLinks>
+            </NavItem>
+
+
+         
+          </NavMenu>
+        
           <NavBtn>
-              <NavBtnLink to='/signin'>Contact JAK</NavBtnLink>
+              <NavBtnLink to='/signin'>Download CV</NavBtnLink>
           </NavBtn>
 
         </NavbarContainer>

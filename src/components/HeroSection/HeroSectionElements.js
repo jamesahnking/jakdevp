@@ -11,7 +11,7 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
     
-    :before {
+    /* :before {
     content: '';
     position: absolute;
     top: 0;
@@ -33,7 +33,7 @@ export const HeroContainer = styled.div`
       ),
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
-  }
+  } */
 `;
 
 export const HeroBg = styled.div`

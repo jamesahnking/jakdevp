@@ -19,8 +19,39 @@ const Footer = () => {
 
                     </FooterLinksItems>
 
-                    
+                    <FooterLinksItems>
+                        
+                        <FooterLinkTitle>Social</FooterLinkTitle>
+                        <FooterLink to='/'> Medium</FooterLink>
+                        <FooterLink to='/'> Linkedin</FooterLink>
 
+                    </FooterLinksItems>
+
+                    <FooterLinksItems>
+                        
+                        <FooterLinkTitle>Contact</FooterLinkTitle>
+                        <FooterLink to='/'> Email </FooterLink>
+                        <FooterLink to='/'> 6462831017</FooterLink>
+
+                    </FooterLinksItems>
+
+
+                    <SocialMedia>
+                        <SocialLogo to='/'>
+
+                        {/* Image  */}
+
+                        </SocialLogo>
+                        <SocialIconLink href='/' target='_blank' aria-label='Medium'>
+                         {/* FaIcon */}
+                        </SocialIconLink>
+                        <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+                         {/* FaIcon */}
+                        </SocialIconLink>
+                        <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+                         {/* FaIcon */}
+                        </SocialIconLink>
+                    </SocialMedia>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
         </FooterWrap>

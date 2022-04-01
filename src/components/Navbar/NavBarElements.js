@@ -39,13 +39,30 @@ export const NavLogo = styled(LinkRouter)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     display: flex;  
     align-items: center;
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
 `;
+
+export const ImgWrap = styled.div`
+  max-width: 80px;
+  height: 100%;
+  padding-top: 20px;
+`;
+
+export const Img = styled.img`
+  width: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0px;
+  padding-right: 0;
+`;
+
+
+
 
 export const MobileIcon = styled.div `
     display: none;
@@ -103,13 +120,13 @@ cursor: pointer;
 
 export const NavBtnLink = styled(LinkRouter)`
 border-radius: 50px;
-background: #fff;
+background: none;
 white-space: nowrap;
 padding: 10px 22px;
-color: #010606;
+color: #fff;
 font-size: 16px;
 outline: none;
-border: none;
+border: 2px #fff solid;
 cursor: pointer;
 transition: all 0.2 ease-in-out;
 text-decoration: none;
@@ -119,5 +136,6 @@ text-decoration: none;
     background: #fff;
     color: #010606;
 }
-
 `;
+
+

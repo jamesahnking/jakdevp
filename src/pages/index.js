@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoModule from "../components/InfoModule";
 import { HomeObjOne, HomeObjTwo, HomeObjThree, HomeObjFour, HomeObjFive } from "../components/InfoModule/Data";
+import { BrandingObj } from "../components/Navbar/Data";
+
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +17,7 @@ const Home = () => {
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
+      <Navbar toggle={toggle} {...BrandingObj}/>
       <HeroSection />
       <InfoModule {...HomeObjOne} />
       <InfoModule {...HomeObjTwo} />
