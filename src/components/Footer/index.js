@@ -1,63 +1,66 @@
-import React from 'react'
+import React from "react";
+import { animateScroll as scroll } from 'react-scroll';
 
-const Footer = () => {
+import {
+  FooterContainer,
+  FooterWrap,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  WebsiteRights,
+  SocialIcons,
+  SocialIconLink,
+  ImgWrap,
+  Img
+} from "./FooterElements";
+
+import {
+  FaTwitter,
+  FaLinkedin,
+  FaMedium,
+  FaGithub,
+} from "react-icons/fa";
+
+const Footer = ({  img, alt}) => {
+    const toggleHome = () => {
+        scroll.scrollToTop();
+      };
   return (
     <>
-    <FooterContainer>
+      <FooterContainer>
         <FooterWrap>
-            <FooterLinksContainer>
-                <FooterLinksWrapper>
-                    
-                    <FooterLinksItems>
+                <SocialMedia>
+                    <SocialMediaWrap>
+                    <ImgWrap>
+                    <SocialLogo to="/" onClick={toggleHome}> 
+                        <Img src={img} alt={alt} />
+                    </SocialLogo>
+                    </ImgWrap>
+                    <WebsiteRights>James Ahn-King © 2022 All rights reserved.</WebsiteRights>
+                    <SocialIcons>
+                   
                         
-                        <FooterLinkTitle>Projects</FooterLinkTitle>
-                        <FooterLink to='/'> Project 1</FooterLink>
-                        <FooterLink to='/'> Project 2</FooterLink>
-                        <FooterLink to='/'> Project 3</FooterLink>
-                        <FooterLink to='/'> Project 4</FooterLink>
-                        <FooterLink to='/'> Project 5</FooterLink>
-
-                    </FooterLinksItems>
-
-                    <FooterLinksItems>
-                        
-                        <FooterLinkTitle>Social</FooterLinkTitle>
-                        <FooterLink to='/'> Medium</FooterLink>
-                        <FooterLink to='/'> Linkedin</FooterLink>
-
-                    </FooterLinksItems>
-
-                    <FooterLinksItems>
-                        
-                        <FooterLinkTitle>Contact</FooterLinkTitle>
-                        <FooterLink to='/'> Email </FooterLink>
-                        <FooterLink to='/'> 6462831017</FooterLink>
-
-                    </FooterLinksItems>
-
-
-                    <SocialMedia>
-                        <SocialLogo to='/'>
-
-                        {/* Image  */}
-
-                        </SocialLogo>
-                        <SocialIconLink href='/' target='_blank' aria-label='Medium'>
-                         {/* FaIcon */}
+                        <SocialIconLink
+                        href="https://www.linkedin.com/in/james-ahn-king-6176841/"
+                        target="_blank"
+                        aria-label="Linkedin"
+                        >
+                          <FaLinkedin />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
-                         {/* FaIcon */}
+                        <SocialIconLink
+                        target="_blank"
+                        aria-label="Github"
+                        href="https://github.com/jamesahnking"
+                        >
+                        <FaGithub />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
-                         {/* FaIcon */}
-                        </SocialIconLink>
-                    </SocialMedia>
-                </FooterLinksWrapper>
-            </FooterLinksContainer>
+                    </SocialIcons>
+                    </SocialMediaWrap>
+                </SocialMedia>
         </FooterWrap>
-    </FooterContainer>
+      </FooterContainer>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

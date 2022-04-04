@@ -9,7 +9,7 @@ export const Nav = styled.nav `
     // margin-top: -80px;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -21,7 +21,6 @@ export const Nav = styled.nav `
 ;
 
 // Nav Container
-
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
@@ -34,7 +33,6 @@ export const NavbarContainer = styled.div`
 `;
 
 // Nav Logo - link is react Router
-
 export const NavLogo = styled(LinkRouter)`
     color: #fff;
     justify-self: flex-start;
@@ -48,7 +46,7 @@ export const NavLogo = styled(LinkRouter)`
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 80px;
+  max-width: 100px;
   height: 100%;
   padding-top: 20px;
 `;
@@ -57,11 +55,9 @@ export const Img = styled.img`
   width: 100%;
   margin-top: 0;
   margin-right: 0;
-  margin-left: 0px;
+  margin-left: 10px;
   padding-right: 0;
 `;
-
-
 
 
 export const MobileIcon = styled.div `
@@ -76,7 +72,6 @@ export const MobileIcon = styled.div `
         font-size: 1.8rem;
         cursor: pointer;
     }
-
 `;
 
 export const NavMenu = styled.ul`
@@ -93,6 +88,7 @@ margin-right: -22px;
 
 export const NavItem = styled.li` 
 height: 80px;
+
 `;
 
 export const NavBtn = styled.nav`
@@ -118,6 +114,21 @@ cursor: pointer;
 }
 `;
 
+export const NavLinksSoc = styled.div`
+color: #fff;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0 1rem;
+height: 100%;
+cursor: pointer;
+
+&.active {
+  border-bottom: 3px solid #01bf71;
+}
+`;
+
+
 export const NavBtnLink = styled(LinkRouter)`
 border-radius: 50px;
 background: none;
@@ -139,3 +150,12 @@ text-decoration: none;
 `;
 
 
+export const SocialIcons = styled.div`
+font-size: 1.5em;
+align-items: center;
+`;
+
+export const SocialIconLink = styled.a`
+    color: #fff;
+    font-size: 24px;
+`;

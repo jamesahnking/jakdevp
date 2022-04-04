@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBars, FaGithub, FaMedium } from "react-icons/fa";
+import { FaBars, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import {
   MobileIcon,
@@ -12,12 +12,16 @@ import {
   NavBtn,
   NavBtnLink,
   Img,
-  ImgWrap
+  ImgWrap,
+  SocialIcons,
+  NavLinksSoc,
+  SocialIconLink
+  
+
 } from './NavBarElements';
 
 
-
-const Navbar = ({ toggle,img,alt }) => {
+const Navbar = ({ toggle, img, alt }) => {
   return (
     <>
      <IconContext.Provider value={{ color: '#fff' }}>
@@ -38,7 +42,7 @@ const Navbar = ({ toggle,img,alt }) => {
 
 
             <NavItem>
-              <NavLinks to="multisigwallet">Multisig Wallet </NavLinks>
+              <NavLinks to="/multisigwallet">Multisig Wallet </NavLinks>
             </NavItem>
 
             <NavItem>
@@ -48,33 +52,36 @@ const Navbar = ({ toggle,img,alt }) => {
             <NavItem>
               <NavLinks to="pillarsandrings">Pillars & Rings </NavLinks>
             </NavItem>
-
       
             <NavItem>
               <NavLinks to="geranimals">Geranimals</NavLinks>
             </NavItem>
 
             <NavItem>
-              <NavLinks to="about"> About Me</NavLinks>
+              <NavLinks to="geranimals">About Me</NavLinks>
             </NavItem>
 
-            <NavItem>
-              <NavLinks to="geranimals">
-                  <FaGithub />
-              </NavLinks>
-            </NavItem>
-
-
-            <NavItem>
-              <NavLinks to="geranimals">
-                  <FaMedium />
-              </NavLinks>
-            </NavItem>
-
-
-         
           </NavMenu>
-        
+          <NavBtn>
+              <SocialIconLink
+                  href="https://www.linkedin.com/in/james-ahn-king-6176841/"
+                  target="_blank"
+                  aria-label="Linkedin"
+                   >
+                  <FaGithub />
+              </SocialIconLink>
+            </NavBtn>
+
+            <NavBtn>
+             <SocialIconLink  href="https://www.linkedin.com/in/james-ahn-king-6176841/"
+                  target="_blank"
+                  aria-label="Linkedin"
+                   >
+                     <FaLinkedin/>
+              </SocialIconLink>
+
+            </NavBtn>
+
           <NavBtn>
               <NavBtnLink to='/signin'>Download CV</NavBtnLink>
           </NavBtn>

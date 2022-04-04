@@ -5,6 +5,9 @@ import HeroSection from "../components/HeroSection";
 import InfoModule from "../components/InfoModule";
 import { HomeObjOne, HomeObjTwo, HomeObjThree, HomeObjFour, HomeObjFive } from "../components/InfoModule/Data";
 import { BrandingObj } from "../components/Navbar/Data";
+import { BrandingObj2 } from "../components/Footer/Data";
+import { BrandingPriObj } from "../components/HeroSection/Data";
+import Footer from "../components/Footer";
 
 
 const Home = () => {
@@ -18,12 +21,13 @@ const Home = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} {...BrandingObj}/>
-      <HeroSection />
+      <HeroSection {...BrandingPriObj} />
       <InfoModule {...HomeObjOne} />
       <InfoModule {...HomeObjTwo} />
       <InfoModule {...HomeObjThree} />
       <InfoModule {...HomeObjFour} />
       <InfoModule {...HomeObjFive} />
+      <Footer {...BrandingObj2} />
     </>
   );
 };
