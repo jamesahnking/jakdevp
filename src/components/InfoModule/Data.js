@@ -6,7 +6,7 @@ import svg2Url from '../../images/svg-2.svg';
 import svg3Url from '../../images/svg-3.svg';
 import svg4Url from '../../images/svg-4.svg';
 import svg5Url from '../../images/svg-5.svg';
-
+import jaklogotype from '../../images/jaklogotype.svg';
 
 export const HomeObjOne = {
     id: 'about',

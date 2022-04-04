@@ -11,7 +11,7 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
     
-    :before {
+    /* :before {
     content: '';
     position: absolute;
     top: 0;
@@ -33,7 +33,7 @@ export const HeroContainer = styled.div`
       ),
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
-  }
+  } */
 `;
 
 export const HeroBg = styled.div`
@@ -59,10 +59,11 @@ export const HeroContent = styled.div`
     z-index: 3;
     max-width: 1200px;
     position: absolute;
-    padding: 8px 24px;
+    padding: 8px 24px 60px  0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* margin-bottom: 80px; */
 `;
 
 export const Heroh1 = styled.h1`
@@ -75,11 +76,11 @@ export const Heroh1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
-    margin-top: 24px;
+    margin-top: 10px;
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
-    max-width: 600px;
+    max-width: 550px;
 `;
 
 export const HeroBtnWrapper = styled.div`
@@ -102,6 +103,25 @@ export const HeroTri = styled.div `
   -webkit-transform: rotate(360deg);
   -o-transform: rotate(360deg);
 `;
+
+export const ImgWrap = styled.div`
+  max-width: 555px;
+  height: 400px;
+`;
+
+export const Img = styled.img`
+  width: 100%;
+  height: 100%;
+  /* margin-top: 0; */
+  /* margin-right: 0;
+  margin-left: 10px; */
+  margin: 0
+  padding-right: 0;
+
+`;
+
+
+
 export const IconWrapper = styled.div `
     color: #fff;
     width: 30px;
