@@ -3,7 +3,7 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoModule from "../components/InfoModule";
-import { HomeObjOne, HomeObjTwo, HomeObjThree, HomeObjFour, HomeObjFive } from "../components/InfoModule/Data";
+import { HomeObjOne, HomeObjTwo, HomeObjThree, HomeObjFour, HomeObjFive, HomeObjSix } from "../components/InfoModule/Data";
 import { BrandingObj } from "../components/Navbar/Data";
 import { BrandingObj2 } from "../components/Footer/Data";
 import { BrandingPriObj } from "../components/HeroSection/Data";
@@ -27,6 +27,7 @@ const Home = () => {
       <InfoModule {...HomeObjThree} />
       <InfoModule {...HomeObjFour} />
       <InfoModule {...HomeObjFive} />
+      <InfoModule {...HomeObjSix} />
       <Footer {...BrandingObj2} />
     </>
   );

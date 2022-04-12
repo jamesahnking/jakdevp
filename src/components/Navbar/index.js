@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaBars, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import { animateScroll as scroll } from "react-scroll";
+
 import {
   MobileIcon,
   Nav,
@@ -13,81 +15,145 @@ import {
   NavBtnLink,
   Img,
   ImgWrap,
-  SocialIcons,
-  NavLinksSoc,
-  SocialIconLink
-  
-
-} from './NavBarElements';
-
+  SocialIconLink,
+} from "./NavBarElements";
 
 const Navbar = ({ toggle, img, alt }) => {
+  const [scrollNav, setScrollNav] = useState(false);
+
+  const changeNav = () => {
+    if (window.scrollY >= 80) {
+      setScrollNav(true);
+    } else {
+      setScrollNav(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeNav);
+  }, []);
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <>
-     <IconContext.Provider value={{ color: '#fff' }}>
-      <Nav>
-        <NavbarContainer>
-          
-          <NavLogo to="/">
-            <ImgWrap>
-                  <Img src={img} alt={alt} />
-            </ImgWrap>
-          </NavLogo>
+      <IconContext.Provider value={{ color: "#fff" }}>
+        <Nav scrollNav={scrollNav}>
+          <NavbarContainer>
+            <NavLogo onClick={toggleHome} to="/">
+              <ImgWrap>
+                <Img src={img} alt={alt} />
+              </ImgWrap>
+            </NavLogo>
 
-          <MobileIcon onClick={toggle}>
-            <FaBars />
-          </MobileIcon>
+            <MobileIcon onClick={toggle}>
+              <FaBars />
+            </MobileIcon>
 
-          <NavMenu>
+            <NavMenu>
+              <NavItem>
+                <NavLinks
+                  to="project1"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Multisig Wallet{" "}
+                </NavLinks>
+              </NavItem>
 
+              <NavItem>
+                <NavLinks
+                  to="project2"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Crypto Dex{" "}
+                </NavLinks>
+              </NavItem>
 
-            <NavItem>
-              <NavLinks to="/multisigwallet">Multisig Wallet </NavLinks>
-            </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="project3"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Pillars & Rings{" "}
+                </NavLinks>
+              </NavItem>
 
-            <NavItem>
-              <NavLinks to="cryptodex">Crypto Dex </NavLinks>
-            </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="project4"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Geranimals
+                </NavLinks>
+              </NavItem>
 
-            <NavItem>
-              <NavLinks to="pillarsandrings">Pillars & Rings </NavLinks>
-            </NavItem>
-      
-            <NavItem>
-              <NavLinks to="geranimals">Geranimals</NavLinks>
-            </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="project5"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Portfolio
+                </NavLinks>
+              </NavItem>
 
-            <NavItem>
-              <NavLinks to="geranimals">About Me</NavLinks>
-            </NavItem>
-
-          </NavMenu>
-          <NavBtn>
+              <NavItem>
+                <NavLinks
+                      to="project6"
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact="true"
+                      offset={-80}
+                      >About Me</NavLinks>
+              </NavItem>
+            </NavMenu>
+            <NavBtn>
               <SocialIconLink
-                  href="https://www.linkedin.com/in/james-ahn-king-6176841/"
-                  target="_blank"
-                  aria-label="Linkedin"
-                   >
-                  <FaGithub />
+                href="https://www.linkedin.com/in/james-ahn-king-6176841/"
+                target="_blank"
+                aria-label="Linkedin"
+              >
+                <FaGithub />
               </SocialIconLink>
             </NavBtn>
 
             <NavBtn>
-             <SocialIconLink  href="https://www.linkedin.com/in/james-ahn-king-6176841/"
-                  target="_blank"
-                  aria-label="Linkedin"
-                   >
-                     <FaLinkedin/>
+              <SocialIconLink
+                href="https://www.linkedin.com/in/james-ahn-king-6176841/"
+                target="_blank"
+                aria-label="Linkedin"
+              >
+                <FaLinkedin />
               </SocialIconLink>
-
             </NavBtn>
 
-          <NavBtn>
-              <NavBtnLink to='/signin'>Download CV</NavBtnLink>
-          </NavBtn>
-
-        </NavbarContainer>
-      </Nav>
+            <NavBtn>
+              <NavBtnLink to="/">Download CV</NavBtnLink>
+            </NavBtn>
+          </NavbarContainer>
+        </Nav>
       </IconContext.Provider>
     </>
   );

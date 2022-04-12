@@ -1,5 +1,8 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+// import { Button } from "../ButtonElements";
+// import { Link } from 'react-router-dom';
+import { ButtonLink } from '../LinkElement';
+
 
 import {
   InfoContainer,
@@ -30,6 +33,7 @@ const InfoModule = ({
   alt,
   primary,
   darkText,
+  towhere,
   dark,
   dark2,
 }) => {
@@ -45,19 +49,15 @@ const InfoModule = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
-                    to="home"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
-                  >
-                    {buttonLabel}
-                  </Button>
+
+                <ButtonLink 
+                to={towhere}
+                primary={primary ? 1 : 0}
+                dark={dark ? 1 : 0}
+                dark2={dark2 ? 1 : 0}>
+                  { buttonLabel }
+                </ButtonLink>
+
                 </BtnWrap>
               </TextWrapper>
             </Column1>
