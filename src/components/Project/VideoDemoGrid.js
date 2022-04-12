@@ -1,7 +1,6 @@
 import React from 'react'
 import { VideoContainer, PlayerWrapper, VideoPlayer } from "./ProjectElements";
 import getYouTubeID from 'get-youtube-id';
-import ReactPlayer from 'react-player'
 
 const VideoDemoGrid = () => {
   
