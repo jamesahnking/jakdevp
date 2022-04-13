@@ -1,18 +1,26 @@
 // reusable component method
 // passing data and values. 
 // TODO: replace with Strapi.
-import svg1Url from '../../images/svg-1.svg';
-import svg2Url from '../../images/svg-2.svg';
-import svg3Url from '../../images/svg-3.svg';
-import svg4Url from '../../images/svg-4.svg';
-import svg5Url from '../../images/svg-5.svg';
 
-export const HomeObjOne = {
+import jaklogopritriangle from '../images/jak_primary_tri_logo.svg';
+import jaklogotype from '../images/jaklogotype.svg';
+import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
+import svg1Url from '../images/svg-1.svg';
+import svg2Url from '../images/svg-2.svg';
+import svg3Url from '../images/svg-3.svg';
+import svg4Url from '../images/svg-4.svg';
+import svg5Url from '../images/svg-5.svg';
+
+///////////////////
+// Project Data  //
+///////////////////
+
+  export const HomeObjOne = {
     id: 'project1',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Project',
+    topLine: 'Silence of the limbs',
     headline: 'MultiSig Wallet',
     description:
       'A multi-signature crypto wallet that runs on an Ethereum based blockchain requiring a 3 member approval to release funds.',
@@ -23,7 +31,36 @@ export const HomeObjOne = {
     alt: 'Car',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    stackTitle: 'Tech Stack',
+    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
+    stackItem0:<FaEthereum/>,
+    stackItem1:<FaNodeJs/>,
+    stackItem2:<FaBootstrap/>,
+    stackItem3:<FaReact/>,
+    stackItem4:'',
+    stackItem5:'',
+    stackItem6:'',
+    
+    Question0:'Are the British coming?',
+    Answer0: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
+    Paragraph0: '',
+
+    Question1:'Phasellus diam tortor, tempus ac lacinia non, ullamcorper id erat?',
+    Answer1: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
+    Paragraph1: '',
+
+    Question2:'Maecenas a neque finibus, fermentum arcu at, volutpat ligula?',
+    Answer2: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
+    Paragraph2: '',
+
+    Question3:'Vivamus et arcu ut lacus fringilla dictum sed ac ipsum. Ut feugiat vestibulum sapien?',
+    Answer3: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
+    Paragraph3: '',
+
+    Question4:'Cras accumsan cursus vestibulum. Phasellus tincidunt in nibh quis rhoncus?',
+    Answer4: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
+    Paragraph4: '',
   };
   
   export const HomeObjTwo = {
@@ -42,7 +79,8 @@ export const HomeObjOne = {
     alt: 'Piggybank',
     dark: false,
     primary: true,
-    darkText: false
+    darkText: false,
+    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
   };
   
   export const HomeObjThree = {
@@ -61,7 +99,8 @@ export const HomeObjOne = {
     alt: 'Papers',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
   };
   
   export const HomeObjFour = {
@@ -80,7 +119,8 @@ export const HomeObjOne = {
     alt: 'Piggybank',
     dark: false,
     primary: true,
-    darkText: false
+    darkText: false,
+    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
   };
   
   export const HomeObjFive= {
@@ -99,7 +139,8 @@ export const HomeObjOne = {
     alt: 'Piggybank',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
   };
 
   export const HomeObjSix= {
@@ -118,5 +159,39 @@ export const HomeObjOne = {
     alt: 'Piggybank',
     dark: false,
     primary: false,
-    darkText: false
+    darkText: false,
+    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
   };
+
+  ///////////////////////
+  // Hero Section Data //
+  ///////////////////////
+
+  export const BrandingPriObj = {
+
+    img: jaklogopritriangle,
+    alt: 'Logotype Triangle'
+
+}
+
+  ///////////////////////
+  // Nav Section Data //
+  ///////////////////////
+
+  export const BrandingObj = {
+
+    img: jaklogotype,
+    alt: 'James Ahn-King Logotype'
+
+}
+
+  //////////////////////////
+  // Footer Section Data //
+  ////////////////////////
+
+  export const BrandingObj2 = {
+
+    img: jaklogotype,
+    alt: 'James Ahn-King Logotype'
+
+}

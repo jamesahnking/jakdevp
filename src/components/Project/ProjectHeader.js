@@ -10,22 +10,23 @@ import {
 
 } from "./ProjectElements";
 
-const ProjectHeader = () => {
+const ProjectHeader = ({
+  topLine,
+  headline,
+  description
+
+}) => {
   return (
     <HeaderContainer>
       <HeaderBg></HeaderBg>
       <HeaderContent>
       
-      <TopLine>Project</TopLine> 
+      <TopLine>{ topLine }</TopLine> 
 
       <TextWrapper>
-        <Headerh1>Blockchain Project 1</Headerh1>
+        <Headerh1>{ headline }</Headerh1>
         <HeaderP>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit,{" "}
+          { description }
         </HeaderP>
         </TextWrapper>
       </HeaderContent>

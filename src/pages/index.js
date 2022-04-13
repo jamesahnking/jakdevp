@@ -3,12 +3,19 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoModule from "../components/InfoModule";
-import { HomeObjOne, HomeObjTwo, HomeObjThree, HomeObjFour, HomeObjFive, HomeObjSix } from "../components/InfoModule/Data";
-import { BrandingObj } from "../components/Navbar/Data";
-import { BrandingObj2 } from "../components/Footer/Data";
-import { BrandingPriObj } from "../components/HeroSection/Data";
-import Footer from "../components/Footer";
+import {
+  HomeObjOne,
+  HomeObjTwo,
+  HomeObjThree,
+  HomeObjFour,
+  HomeObjFive,
+  HomeObjSix,
+  BrandingObj,
+  BrandingObj2,
+  BrandingPriObj
+} from '../components/Data';
 
+import Footer from '../components/Footer';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +27,7 @@ const Home = () => {
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} {...BrandingObj}/>
+      <Navbar toggle={toggle} {...BrandingObj} />
       <HeroSection {...BrandingPriObj} />
       <InfoModule {...HomeObjOne} />
       <InfoModule {...HomeObjTwo} />

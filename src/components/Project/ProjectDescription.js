@@ -11,30 +11,60 @@ import {
   } from "./ProjectElements";
 
 
-const ProjectDescription = () => {
+const ProjectDescription = ({
+  stackTitle,
+  stackItem0,  
+  stackItem1,  
+  stackItem2,  
+  stackItem3,
+  Question0,
+  Answer0,
+  Question1,
+  Answer1,  
+  Question2,
+  Answer2,
+  Question3,
+  Answer3,
+
+}) => {
   return (
       <DescContainer>
  
         <DescColContainer>
             <DescCol1>
-                    <DescriptionTitle>Tech Stack</DescriptionTitle> 
-                    <StackItem><FaEthereum/></StackItem>
-                    <StackItem><FaReact /></StackItem>
-                    <StackItem><FaNodeJs /></StackItem>
-                    <StackItem><FaBootstrap /></StackItem>
+                    <DescriptionTitle>{ stackTitle }</DescriptionTitle> 
+                    <StackItem>{ stackItem0 }</StackItem>
+                    <StackItem>{ stackItem1 }</StackItem>
+                    <StackItem>{ stackItem2 }</StackItem>
+                    <StackItem>{ stackItem3 }</StackItem>
 
             </DescCol1>
 
             <DescCol2>
-
-                    <DescriptionTitle>Et harum quidem rerum facilis est et expedita distinctio?</DescriptionTitle>
-
-                    <DescriptionTextP>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                    accusantium doloremque laudantium, totam rem aperiam, 
-                    eaque ipsa quae ab illo inventore veritatis                     
-                    </DescriptionTextP>
+                    <DescriptionTitle>{ Question0 }</DescriptionTitle>
+                    <DescriptionTextP>{ Answer0 }</DescriptionTextP>
                     
+                    <DescriptionTitle>{ Question1 }</DescriptionTitle>
+                    <DescriptionTextP>{ Answer1 }</DescriptionTextP>
+                    
+                    <DescriptionTitle>{ Question2 }</DescriptionTitle>
+                    <DescriptionTextP>{ Answer2 }</DescriptionTextP>
+                    
+                    <DescriptionTitle>{ Question3 }</DescriptionTitle>
+                    <DescriptionTextP>{ Answer3 }</DescriptionTextP>
+                    
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
             </DescCol2>
         </DescColContainer>
         </DescContainer>
