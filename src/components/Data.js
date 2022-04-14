@@ -4,6 +4,8 @@
 
 import jaklogopritriangle from '../images/jak_primary_tri_logo.svg';
 import jaklogotype from '../images/jaklogotype.svg';
+import pandas from '../images/panda2.jpeg';
+import imgeditorial from '../images/img_editorial.png';
 import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
 import svg1Url from '../images/svg-1.svg';
 import svg2Url from '../images/svg-2.svg';
@@ -11,9 +13,9 @@ import svg3Url from '../images/svg-3.svg';
 import svg4Url from '../images/svg-4.svg';
 import svg5Url from '../images/svg-5.svg';
 
-///////////////////
-// Project Data  //
-///////////////////
+//////////////////////////
+// Project Data - OBJ 1 //
+//////////////////////////
 
   export const HomeObjOne = {
     id: 'project1',
@@ -32,6 +34,9 @@ import svg5Url from '../images/svg-5.svg';
     dark: false,
     primary: false,
     darkText: true,
+
+    // ==== Tech Stack ====== ///
+
     stackTitle: 'Tech Stack',
     videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
     stackItem0:<FaEthereum/>,
@@ -42,6 +47,8 @@ import svg5Url from '../images/svg-5.svg';
     stackItem5:'',
     stackItem6:'',
     
+    // ==== Description and Paragraphs ====== ///
+
     Question0:'Are the British coming?',
     Answer0: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
     Paragraph0: '',
@@ -61,8 +68,25 @@ import svg5Url from '../images/svg-5.svg';
     Question4:'Cras accumsan cursus vestibulum. Phasellus tincidunt in nibh quis rhoncus?',
     Answer4: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
     Paragraph4: '',
+
+    // ==== Image and Text Primary ====== ///
+
+    ImagePrimary: pandas,
+    ImagePrimaryAlt:'These are pandas',
+    ImagePriText:'Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum',
+    
+   // ==== Image and Text Secondary ====== ///
+
+    ImageSecondary: imgeditorial,
+    ImageSecondaryAlt:'These are pandas',
+    ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
   };
-  
+
+
+///////////////////////////
+// Project Data - OBJ 2 //
+//////////////////////////
+
   export const HomeObjTwo = {
     id: 'project2',
     lightBg: false,
@@ -195,3 +219,16 @@ import svg5Url from '../images/svg-5.svg';
     alt: 'James Ahn-King Logotype'
 
 }
+
+  /////////////////////////////////
+  // Editorial Image Text Layout //
+  ////////////////////////////////
+
+export const EdBoxImgL = {
+  imgStartEd: false
+};
+
+export const EdBoxImgR = {
+  imgStartEd: true
+};
+
