@@ -222,6 +222,7 @@ export const EditorialSecContainer = styled.div`
   min-height: 500px;
   position: relative;
   z-index: 1;
+  margin-bottom: 40px;
   /* color: #cddafd;
   background: #cddafd;
   margin-bottom:20px;
@@ -255,6 +256,18 @@ export const EditorialRowA = styled.div`
 `;
 
 
+export const EditorialRowB= styled.div`
+  display: grid;
+  grid-auto-columns: minmax(auto, 1fr);
+  align-items: center;
+  grid-template-areas: 'col2 col1';
+
+@media screen and (max-width: 768px) {
+    grid-template-areas: 'col1 col1' 'col2 col2'; 
+      
+  }
+`;
+
 export const EditorialSecCol1 = styled.div`
   grid-area: col1;
 `;
@@ -278,7 +291,7 @@ export const EditorialTextp= styled.p`
     font-size: 18px;
     text-align: left;
     max-width: 550px;
-    padding-left: 20px;
+    padding: 0 30px;
 `;
 
 export const EditorialSecImgWrap = styled.div`

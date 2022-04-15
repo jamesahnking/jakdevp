@@ -5,6 +5,7 @@ import VideoDemoGrid from '../components/Project/VideoDemoGrid';
 import { HomeObjOne,EdBoxImgL,EdBoxImgR  } from "../components/Data";
 import ProjectEditorialPri from '../components/Project/ProjectEditorialPri';
 import ProjectEditiorialSec from '../components/Project/ProjectEditiorialSec';
+import ProjectEditiorialTer from '../components/Project/ProjectEditorialTer';
 
 
 
@@ -16,7 +17,7 @@ const Project1 = () => {
       <VideoDemoGrid {...HomeObjOne} /> 
       <ProjectEditorialPri {...HomeObjOne} />
       <ProjectEditiorialSec  {...HomeObjOne} />
-      <ProjectEditiorialSec  {...HomeObjOne} />
+      <ProjectEditiorialTer  {...HomeObjOne} />
 
       
     </>
