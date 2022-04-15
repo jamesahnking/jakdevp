@@ -22,7 +22,7 @@ import svg5Url from '../images/svg-5.svg';
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Silence of the limbs',
+    topLine: 'PROJECT',
     headline: 'MultiSig Wallet',
     description:
       'A multi-signature crypto wallet that runs on an Ethereum based blockchain requiring a 3 member approval to release funds.',

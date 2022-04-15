@@ -57,6 +57,7 @@ export const Headerh1 = styled.h1`
 
 export const HeaderP = styled.p`
     margin-top: 10px;
+    line-height:1.5em;
     color: #fff;
     font-size: 18px;
     text-align: left;
@@ -70,11 +71,11 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: #000;
-  font-size: 16px;
+  color: #fff;
+  font-size: 18px;
   line-height: 16px;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 16px;
 `;
@@ -117,6 +118,7 @@ export const DescCol2 = styled.div`
 
 export const DescriptionTextP = styled.p`
   max-width: 800px;
+  font-size: 18px;
   line-height: 1.5em;
   padding: 20px 0 0 0;
   color: black;
@@ -124,11 +126,13 @@ export const DescriptionTextP = styled.p`
 
 export const StackTitle= styled.p`
 font-weight: bold;
-padding-bottom: 10px;
+font-size: 16px;
+padding: 10px 0;
 `;
 
 export const DescriptionTitle = styled.p`
 font-weight: bold;
+font-size: 18px;
 padding: 10px 0;
 `;
 
@@ -182,6 +186,7 @@ export const EditorialWrapper = styled.div`
 
 export const EditorialPriTextP = styled.p`
   max-width: 1000px;
+  font-size: 18px;
   line-height: 1.5em;
   padding: 20px 0 20px 0;
   color: black;
@@ -189,9 +194,7 @@ export const EditorialPriTextP = styled.p`
   @media screen and (max-width: 768px) {
     padding: 20px;
 
-  }
-
-`;
+  }`;
 
 
 export const EditorialImgWrap = styled.div`
@@ -214,7 +217,7 @@ export const EditorialImgPri = styled.img`
 
 
 export const EditorialSecContainer = styled.div`
-  background: #fae1dd;
+  /* background: #fae1dd; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -222,7 +225,7 @@ export const EditorialSecContainer = styled.div`
   min-height: 500px;
   position: relative;
   z-index: 1;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   /* color: #cddafd;
   background: #cddafd;
   margin-bottom:20px;
@@ -274,7 +277,7 @@ export const EditorialSecCol1 = styled.div`
 
 export const EditorialSecCol2 = styled.div`
   width:100%;
-  background: green;
+  /* background: green; */
   grid-area: col2;
 `;
 
@@ -287,7 +290,8 @@ export const EditorialTextWrapper = styled.div`
 
 export const EditorialTextp= styled.p`
   /* margin-top: 10px; */
-    color: #fff;
+    color: #000;
+    line-height:1.5em;
     font-size: 18px;
     text-align: left;
     max-width: 550px;

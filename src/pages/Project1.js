@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectHeader from '../components/Project/ProjectHeader';
 import ProjectDescription from '../components/Project/ProjectDescription';
 import VideoDemoGrid from '../components/Project/VideoDemoGrid';
-import { HomeObjOne,EdBoxImgL,EdBoxImgR  } from "../components/Data";
+import { HomeObjOne } from "../components/Data";
 import ProjectEditorialPri from '../components/Project/ProjectEditorialPri';
 import ProjectEditiorialSec from '../components/Project/ProjectEditiorialSec';
 import ProjectEditiorialTer from '../components/Project/ProjectEditorialTer';
@@ -16,10 +16,9 @@ const Project1 = () => {
       <ProjectDescription {...HomeObjOne}/>
       <VideoDemoGrid {...HomeObjOne} /> 
       <ProjectEditorialPri {...HomeObjOne} />
-      <ProjectEditiorialSec  {...HomeObjOne} />
-      <ProjectEditiorialTer  {...HomeObjOne} />
-
-      
+      <ProjectEditiorialSec  {...HomeObjOne} />      
+      <ProjectEditiorialSec  {...HomeObjOne} />      
+      <ProjectEditiorialSec  {...HomeObjOne} />      
     </>
   )
 }

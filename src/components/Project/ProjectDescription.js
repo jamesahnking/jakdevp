@@ -7,7 +7,8 @@ import {
     DescCol2,
     DescriptionTextP,
     StackItem,
-    DescriptionTitle
+    DescriptionTitle,
+    StackTitle
   } from "./ProjectElements";
 
 
@@ -32,7 +33,7 @@ const ProjectDescription = ({
  
         <DescColContainer>
             <DescCol1>
-                    <DescriptionTitle>{ stackTitle }</DescriptionTitle> 
+                    <StackTitle>{ stackTitle }</StackTitle> 
                     <StackItem>{ stackItem0 }</StackItem>
                     <StackItem>{ stackItem1 }</StackItem>
                     <StackItem>{ stackItem2 }</StackItem>
@@ -52,19 +53,7 @@ const ProjectDescription = ({
                     
                     <DescriptionTitle>{ Question3 }</DescriptionTitle>
                     <DescriptionTextP>{ Answer3 }</DescriptionTextP>
-                    
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
+
             </DescCol2>
         </DescColContainer>
         </DescContainer>
