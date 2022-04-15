@@ -106,8 +106,12 @@ import svg5Url from '../images/svg-5.svg';
     darkText: false,
     videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
   };
-  
-  export const HomeObjThree = {
+
+  ///////////////////////////
+// Project Data - OBJ 3 //
+//////////////////////////
+
+export const HomeObjThree = {
     id: 'project3',
     lightBg: true,
     lightText: false,
@@ -126,7 +130,11 @@ import svg5Url from '../images/svg-5.svg';
     darkText: true,
     videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
   };
-  
+
+  ///////////////////////////
+// Project Data - OBJ 4 //
+//////////////////////////
+
   export const HomeObjFour = {
     id: 'project4',
     lightBg: false,
@@ -147,6 +155,10 @@ import svg5Url from '../images/svg-5.svg';
     videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
   };
   
+///////////////////////////
+// Project Data - OBJ 5 //
+//////////////////////////
+
   export const HomeObjFive= {
     id: 'project5',
     lightBg: true,
@@ -166,6 +178,10 @@ import svg5Url from '../images/svg-5.svg';
     darkText: true,
     videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
   };
+
+///////////////////////////
+// Project Data - OBJ 6 //
+//////////////////////////
 
   export const HomeObjSix= {
     id: 'project6',
@@ -206,7 +222,6 @@ import svg5Url from '../images/svg-5.svg';
 
     img: jaklogotype,
     alt: 'James Ahn-King Logotype'
-
 }
 
   //////////////////////////
@@ -214,21 +229,19 @@ import svg5Url from '../images/svg-5.svg';
   ////////////////////////
 
   export const BrandingObj2 = {
-
     img: jaklogotype,
     alt: 'James Ahn-King Logotype'
-
 }
 
   /////////////////////////////////
   // Editorial Image Text Layout //
   ////////////////////////////////
 
-export const EdBoxImgL = {
-  imgStartEd: false
+export const EdBoxImgR = {
+  imgStartEd: true,
 };
 
-export const EdBoxImgR = {
-  imgStartEd: true
+export const EdBoxImgL = {
+  imgStartEd: false,
 };
 

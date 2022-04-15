@@ -15,6 +15,8 @@ background: black;
     height: 300px;
     position: relative;
     z-index: 1;
+
+    
 `;
 
 export const HeaderContent = styled.div`
@@ -25,6 +27,11 @@ export const HeaderContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: left;
+   
+    @media screen and (max-width: 768px) {
+    padding: 20px;
+
+  }
     /* margin-bottom: 80px; */
 `;
 
@@ -82,7 +89,12 @@ export const DescContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: sticky;
+  
+  @media screen and (max-width: 768px) {
+    padding: 20px;
+
+  }
 `;
 
 export const DescColContainer = styled.div`
@@ -123,6 +135,8 @@ padding: 10px 0;
 export const StackItem = styled.div`
  margin: 10px 0;
  font-size: 1.5rem;
+
+ 
 `;
 
 //////////////////////////////////////
@@ -171,6 +185,12 @@ export const EditorialPriTextP = styled.p`
   line-height: 1.5em;
   padding: 20px 0 20px 0;
   color: black;
+
+  @media screen and (max-width: 768px) {
+    padding: 20px;
+
+  }
+
 `;
 
 
@@ -192,63 +212,83 @@ export const EditorialImgPri = styled.img`
 // Editorial Component Styles - Secondary //
 ////////////////////////////////////////////
 
-export const EditorialSecWrapper = styled.div `
-  disiplay: grid;
+
+export const EditorialSecContainer = styled.div`
+  background: #fae1dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  min-height: 500px;
+  position: relative;
   z-index: 1;
-  height: 400px;
-  max-width: 1000px;
+  /* color: #cddafd;
+  background: #cddafd;
+  margin-bottom:20px;
+
+  @media screen and (max-width: 768px) {
+    padding: 10px 0;
+  } */
+`;
+export const EditorialSecWrapper = styled.div `
+display: flex;
+z-index: 1;0
+  width: 100%;
+  max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0
-  justify-content: center;
-  /* margin-top: 20px; */
+  padding: 0 24px;
+  justify-content: center; */
 `;
 
 
-export const EditorialRow = styled.div `
+export const EditorialRowA = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
-  justify-content: center;
   align-items: center;
-  
+  grid-template-areas: 'col1 col2';
 
-
-  grid-template-areas: ${({ imgStartEd })=>
-    imgStartEd ? "'col2 col1'" : "'col1 col2'"};
-
-  // ==== Description and Paragraphs ====== ///
-
-  @media screen and (max-width: 786px) {
-
-    grid-template-areas: ${({ imgStartEd })=>
-    imgStartEd ? `'col1 col2'` : `'col1 col1' 'col2 col2'` };
+@media screen and (max-width: 768px) {
+    grid-template-areas: 'col1 col1' 'col2 col2'; 
+      
   }
-`; 
+`;
+
 
 export const EditorialSecCol1 = styled.div`
   grid-area: col1;
 `;
 
 export const EditorialSecCol2 = styled.div`
+  width:100%;
+  background: green;
   grid-area: col2;
 `;
 
+export const EditorialTextWrapper = styled.div`
+  /* max-width: 500px;
+  padding-top: 0; */
+  /* padding-bottom: 60px; */
+`;
+
+
+export const EditorialTextp= styled.p`
+  /* margin-top: 10px; */
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    max-width: 550px;
+    padding-left: 20px;
+`;
+
 export const EditorialSecImgWrap = styled.div`
-width:100%;  
-max-height: 500px;
+  max-width: 555px;
+  height: 100%;
 `;
 
 export const EditorialSecImgPri = styled.img`
   width: 100%;
-  height: 100%;
   margin-top: 0;
   margin-right: 0;
-  margin-left: 0;
   padding-right: 0;
-`;
-
-export const EditorialTextp= styled.p`
-  line-height: 1.5em;
-  padding: 20px;
-  color: black;
 `;
