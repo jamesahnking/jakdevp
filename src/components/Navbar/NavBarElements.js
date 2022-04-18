@@ -100,7 +100,7 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavLinks = styled(LinkScroll)`
+export const NavLinks = styled(LinkRouter)`
 color: #fff;
 display: flex;
 align-items: center;
@@ -109,7 +109,7 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 
-&.active {
+&:active {
   border-bottom: 3px solid #01bf71;
 }
 `;
@@ -133,6 +133,7 @@ export const NavBtnLink = styled(LinkRouter)`
 border-radius: 50px;
 background: none;
 white-space: nowrap;
+
 padding: 10px 22px;
 color: #fff;
 font-size: 16px;

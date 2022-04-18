@@ -31,7 +31,7 @@ const VideoDemoGrid = ({
             width="100%"
             player= 'yes'
             height= "500px"
-            controls='true'
+            // controls='true'
             />
         </PlayerWrapper>
       </VideoContainer>

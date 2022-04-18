@@ -18,7 +18,7 @@ import {
   SocialIconLink,
 } from "./NavBarElements";
 
-const Navbar = ({ toggle, img, alt }) => {
+const Navbar = ({ toggle, img, alt, project1 }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {

@@ -13,9 +13,28 @@ import svg3Url from '../images/svg-3.svg';
 import svg4Url from '../images/svg-4.svg';
 import svg5Url from '../images/svg-5.svg';
 
+
+//////////////////////////
+// Sub Navigation -  //
+//////////////////////////
+
+export const SubNavbarLinks = {
+  
+  project1: '/project1',
+  project2: '/project2',
+  project3: '/project3',
+  project4: '/project4',
+  project5: '/project5',
+  project6: '/project6',
+  project7: '/project7',
+
+};
+
+
 //////////////////////////
 // Project Data - OBJ 1 //
 //////////////////////////
+
 
   export const HomeObjOne = {
     id: 'project1',

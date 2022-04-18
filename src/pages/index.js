@@ -26,8 +26,8 @@ const Home = () => {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} {...BrandingObj} />
+      {/* <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} {...BrandingObj} /> */}
       <HeroSection {...BrandingPriObj} />
       <InfoModule {...HomeObjOne} />
       <InfoModule {...HomeObjTwo} />
@@ -35,7 +35,6 @@ const Home = () => {
       <InfoModule {...HomeObjFour} />
       <InfoModule {...HomeObjFive} />
       <InfoModule {...HomeObjSix} />
-      <Footer {...BrandingObj2} />
     </>
   );
 };
