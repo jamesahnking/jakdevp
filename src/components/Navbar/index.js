@@ -18,7 +18,7 @@ import {
   SocialIconLink,
 } from "./NavBarElements";
 
-const Navbar = ({ toggle, img, alt, project1 }) => {
+const Navbar = ({ toggle, img, alt }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
@@ -56,11 +56,7 @@ const Navbar = ({ toggle, img, alt, project1 }) => {
               <NavItem>
                 <NavLinks
                   to="project1"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
+              
                 >
                   Multisig Wallet{" "}
                 </NavLinks>
@@ -69,11 +65,8 @@ const Navbar = ({ toggle, img, alt, project1 }) => {
               <NavItem>
                 <NavLinks
                   to="project2"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
+            
+                
                 >
                   Crypto Dex{" "}
                 </NavLinks>
@@ -82,11 +75,8 @@ const Navbar = ({ toggle, img, alt, project1 }) => {
               <NavItem>
                 <NavLinks
                   to="project3"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
+              
+                 
                 >
                   Pillars & Rings{" "}
                 </NavLinks>
@@ -95,11 +85,7 @@ const Navbar = ({ toggle, img, alt, project1 }) => {
               <NavItem>
                 <NavLinks
                   to="project4"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
+   
                 >
                   Geranimals
                 </NavLinks>
@@ -108,11 +94,7 @@ const Navbar = ({ toggle, img, alt, project1 }) => {
               <NavItem>
                 <NavLinks
                   to="project5"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
+            
                 >
                   Portfolio
                 </NavLinks>
@@ -121,11 +103,7 @@ const Navbar = ({ toggle, img, alt, project1 }) => {
               <NavItem>
                 <NavLinks
                       to="project6"
-                      smooth={true}
-                      duration={500}
-                      spy={true}
-                      exact="true"
-                      offset={-80}
+                 
                       >About Me</NavLinks>
               </NavItem>
             </NavMenu>

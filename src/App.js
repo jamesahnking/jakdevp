@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages";
@@ -19,7 +19,15 @@ import {
   SubNavbarLinks
 } from "./components/Data";
 
-function App({ isOpen, toggle }) {
+function App() {
+ 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+
   return (
     <BrowserRouter>
       < ScrollToTop />
