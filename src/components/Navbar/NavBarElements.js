@@ -30,6 +30,12 @@ export const NavbarContainer = styled.div`
     padding: 0 24px;
     max-width: 1100px;
 
+    @media screen and (max-width: 768px) {
+      padding: 0 10px;
+    }
+
+
+
 `;
 
 // Nav Logo - link is react Router
@@ -40,9 +46,17 @@ export const NavLogo = styled(LinkRouter)`
     /* font-size: 1.5rem; */
     display: flex;  
     align-items: center;
-    margin-left: 24px;
+    margin-left: 20px;
     font-weight: bold;
     text-decoration: none;
+
+    @media screen and (max-width: 768px) {
+      margin-left: 10px;
+    }
+
+    @media screen and (max-width: 320px) {
+      margin-left: 0px;
+    }
 `;
 
 export const ImgWrap = styled.div`

@@ -109,9 +109,9 @@ const Navbar = ({ toggle, img, alt }) => {
             </NavMenu>
             <NavBtn>
               <SocialIconLink
-                href="https://www.linkedin.com/in/james-ahn-king-6176841/"
+                href="https://github.com/jamesahnking"
                 target="_blank"
-                aria-label="Linkedin"
+                aria-label="Github"
               >
                 <FaGithub />
               </SocialIconLink>

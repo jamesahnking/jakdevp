@@ -59,11 +59,19 @@ export const HeroContent = styled.div`
     z-index: 3;
     max-width: 1200px;
     position: absolute;
-    padding: 8px 24px 60px  0;
+    padding: 0px 0px 90px  0;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* margin-bottom: 80px; */
+    @media screen and (max-width: 425px) {
+      padding: 0px 0px 160px  0;
+    }
+
+    @media screen and (max-width: 375px) {
+      padding: 0px 0px 220px  0;
+    }
+
 `;
 
 export const Heroh1 = styled.h1`
@@ -80,6 +88,8 @@ export const HeroP = styled.p`
     color: #fff;
     font-size: 18px;
     text-align: center;
+    line-height: 1.5em;
+
     max-width: 550px;
 `;
 
@@ -90,37 +100,28 @@ export const HeroBtnWrapper = styled.div`
     align-items: center;
 `;
 
-export const HeroTri = styled.div `
-      width: 0px;
-  height: 0px;
-  border-style: inset;
-  border-width: 0 200px 346.4px 200px;
-  border-color: transparent transparent #000 transparent;
-  float: left;
-  transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-`;
 
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 400px;
+
+  @media screen and (max-width: 375px) {
+    height: 300px;
+
+    
+  }
 `;
 
 export const Img = styled.img`
   width: 100%;
   height: 100%;
-  /* margin-top: 0; */
+  margin-top: 0;
   /* margin-right: 0;
   margin-left: 10px; */
   margin: 0
   padding-right: 0;
 
 `;
-
-
 
 export const IconWrapper = styled.div `
     color: #fff;

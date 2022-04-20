@@ -18,19 +18,19 @@ import {
   BrandingObj2,
   SubNavbarLinks
 } from "./components/Data";
+import ScrollTopButton from "./components/ScrollTopButton";
 
 function App() {
  
   const [isOpen, setIsOpen] = useState(false);
-
   const toggle = () => {
     setIsOpen(!isOpen);
   };
 
-
   return (
     <BrowserRouter>
       < ScrollToTop />
+      <ScrollTopButton />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} {...BrandingObj} {...SubNavbarLinks} />
       <Routes>

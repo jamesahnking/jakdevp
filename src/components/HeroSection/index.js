@@ -25,7 +25,7 @@ const HeroSection = ({ img, alt }) => {
             <ImgWrap>
           <Img src={img} alt={alt} />
             </ImgWrap>
-          <HeroP>JAMES AHN-KING <br /> Jr. Fullstack Blockchain Developer</HeroP>
+          <HeroP>JAMES AHN-KING<br />Fullstack Junior Solidity Developer</HeroP>
             <HeroBtnWrapper>
                 <Button 
                   to="project1"
@@ -35,7 +35,7 @@ const HeroSection = ({ img, alt }) => {
                   exact="true"
                   offset={-20}
                 >
-                  Check out the work
+                  Check out the latest
                 </Button>
             </HeroBtnWrapper>
             

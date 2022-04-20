@@ -52,6 +52,12 @@ export const Headerh1 = styled.h1`
     text-align: left;
      position: relative;
      padding: 10;
+
+     @media screen and (max-width: 425px) {
+      font-size: 40px;
+    ; 
+      
+  }
     
 `;
 
@@ -61,7 +67,9 @@ export const HeaderP = styled.p`
     color: #fff;
     font-size: 18px;
     text-align: left;
-    /* max-width: 800px; */
+    @media screen and (max-width: 425px) {
+      font-size: 14px;
+    ; 
 `;
 
 export const TextWrapper = styled.div`
@@ -103,6 +111,10 @@ export const DescColContainer = styled.div`
   flex-wrap: wrap;
   max-width: 800px;
   padding: 40px 0 60px 0;
+
+  @media screen and (max-width: 425px) {
+    padding: 10px 0 20px 0;
+    ; 
 `;
 
 export const DescCol1 = styled.div`
@@ -122,24 +134,44 @@ export const DescriptionTextP = styled.p`
   line-height: 1.5em;
   padding: 20px 0 0 0;
   color: black;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+
+  }
 `;
 
 export const StackTitle= styled.p`
 font-weight: bold;
 font-size: 16px;
 padding: 10px 0;
+
+@media screen and (max-width: 768px) {
+  font-size: 14px;
+  padding: 2px 0;
+  }
+
 `;
 
 export const DescriptionTitle = styled.p`
 font-weight: bold;
 font-size: 18px;
 padding: 10px 0;
+
+@media screen and (max-width: 768px) {
+  font-size: 14px;
+  padding: 2px 0;
+
+  }
 `;
 
 export const StackItem = styled.div`
  margin: 10px 0;
  font-size: 1.5rem;
-
+ 
+ @media screen and (max-width: 425px) {
+      font-size: 2em;
+    ; 
  
 `;
 
@@ -179,13 +211,13 @@ export const EditorialContainer= styled.div`
 export const EditorialWrapper = styled.div`
   /* background: #e2ece9; */
   padding: 20px 0 20px 0;
-  max-width: 1000px;
+  max-width: 1100px;
     
 `;
 
 
 export const EditorialPriTextP = styled.p`
-  max-width: 1000px;
+  max-width: 1100px;
   font-size: 18px;
   line-height: 1.5em;
   padding: 20px 0 20px 0;
@@ -193,12 +225,14 @@ export const EditorialPriTextP = styled.p`
 
   @media screen and (max-width: 768px) {
     padding: 20px;
+    font-size: 14px;
+  }
 
   }`;
 
 
 export const EditorialImgWrap = styled.div`
-  max-width: 1000px;
+  max-width: 1100px;
   height: 100%;
 `;
 
@@ -212,7 +246,7 @@ export const EditorialImgPri = styled.img`
 
 
 ////////////////////////////////////////////
-// Editorial Component Styles - Secondary //
+// Editorial Component Styles - Secondary/Ter //
 ////////////////////////////////////////////
 
 
@@ -236,12 +270,12 @@ export const EditorialSecContainer = styled.div`
 `;
 export const EditorialSecWrapper = styled.div `
 display: flex;
-z-index: 1;0
+z-index: 1;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
+  padding: 0px;
   justify-content: center; */
 `;
 
@@ -264,15 +298,16 @@ export const EditorialRowB= styled.div`
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
   grid-template-areas: 'col2 col1';
-
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     grid-template-areas: 'col1 col1' 'col2 col2'; 
       
   }
 `;
 
 export const EditorialSecCol1 = styled.div`
-  grid-area: col1;
+width:100%;
+  
+grid-area: col1;
 `;
 
 export const EditorialSecCol2 = styled.div`
@@ -294,12 +329,18 @@ export const EditorialTextp= styled.p`
     line-height:1.5em;
     font-size: 18px;
     text-align: left;
-    max-width: 550px;
+    max-width: 500px;
     padding: 0 30px;
+
+    @media screen and (max-width: 768px) {
+    padding: 20px 0px 0px 0px;
+    font-size: 14px;    
+    }
+  }
 `;
 
 export const EditorialSecImgWrap = styled.div`
-  max-width: 555px;
+  max-width: 500px;
   height: 100%;
 `;
 

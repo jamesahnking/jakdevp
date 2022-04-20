@@ -19,12 +19,12 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to="about" onClick={toggle}> About</SidebarLink>
-                <SidebarLink to="about" onClick={toggle}> Multisig Wallet </SidebarLink>
-                <SidebarLink to="about" onClick={toggle}> Crypto Dex</SidebarLink>
-                <SidebarLink to="about" onClick={toggle}> Pillars & Rings</SidebarLink>
-                <SidebarLink to="about" onClick={toggle}> Geranimals</SidebarLink>
-                <SidebarLink to="about" onClick={toggle}> CV</SidebarLink>
+                <SidebarLink to="project1" > About</SidebarLink>
+                <SidebarLink to="project2" > Multisig Wallet </SidebarLink>
+                <SidebarLink to="project3" > Crypto Dex</SidebarLink>
+                <SidebarLink to="project4" > Pillars & Rings</SidebarLink>
+                <SidebarLink to="project5" > Geranimals</SidebarLink>
+                <SidebarLink to="project6" > CV</SidebarLink>
 
             </SidebarMenu>
             <SideBtnWrap>
