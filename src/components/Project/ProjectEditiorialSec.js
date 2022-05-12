@@ -2,14 +2,12 @@ import React from "react";
 import {
   EditorialSecContainer,
   EditorialSecWrapper,
-
   EditorialRowA,
   EditorialSecCol1,
   EditorialSecCol2,
   EditorialSecImgWrap,
   EditorialSecImgPri,
-  EditorialTextp
-} from "./ProjectElements";
+  EditorialTextp} from "./ProjectElements";
 
 const ProjectEditiorialSec = ({ ImageSecondary, ImageSecondaryAlt, imgStartEd }) => {
   return (

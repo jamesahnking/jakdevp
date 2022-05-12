@@ -1,5 +1,6 @@
-import React from 'react'
-import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
+import React from 'react';
+
+
 import {
     DescContainer,
     DescColContainer,
@@ -8,26 +9,31 @@ import {
     DescriptionTextP,
     StackItem,
     DescriptionTitle,
-    StackTitle
+    StackTitle,
+    StackItemImg,
   } from "./ProjectElements";
 
-
-const ProjectDescription = ({
+  
+  const Project1Description = ({
+  
   stackTitle,
   stackItem0,  
   stackItem1,  
   stackItem2,  
-  stackItem3,
+  stackItem3,  
   Question0,
-  Answer0,
   Question1,
-  Answer1,  
   Question2,
-  Answer2,
   Question3,
-  Answer3,
+  ListItem0,
+  Paragraph1,
+  Paragraph2,
+  Paragraph3a,
+  Paragraph3b,
+  
 
 }) => {
+
   return (
       <DescContainer>
  
@@ -37,22 +43,22 @@ const ProjectDescription = ({
                     <StackItem>{ stackItem0 }</StackItem>
                     <StackItem>{ stackItem1 }</StackItem>
                     <StackItem>{ stackItem2 }</StackItem>
-                    <StackItem>{ stackItem3 }</StackItem>
-
+                     <StackItemImg src={stackItem3} alt={"material icon"}/>
             </DescCol1>
 
             <DescCol2>
                     <DescriptionTitle>{ Question0 }</DescriptionTitle>
-                    <DescriptionTextP>{ Answer0 }</DescriptionTextP>
-                    
+                    <DescriptionTextP>{ ListItem0 }</DescriptionTextP>
+                                                
                     <DescriptionTitle>{ Question1 }</DescriptionTitle>
-                    <DescriptionTextP>{ Answer1 }</DescriptionTextP>
-                    
+                    <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
+                   
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
-                    <DescriptionTextP>{ Answer2 }</DescriptionTextP>
-                    
+                    <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
+                                 
                     <DescriptionTitle>{ Question3 }</DescriptionTitle>
-                    <DescriptionTextP>{ Answer3 }</DescriptionTextP>
+                    <DescriptionTextP>{ Paragraph3a }</DescriptionTextP>
+                    <DescriptionTextP>{ Paragraph3b }</DescriptionTextP>
 
             </DescCol2>
         </DescColContainer>
@@ -60,4 +66,4 @@ const ProjectDescription = ({
   )
 }
 
-export default ProjectDescription;
+export default Project1Description;

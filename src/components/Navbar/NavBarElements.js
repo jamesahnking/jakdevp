@@ -144,7 +144,7 @@ cursor: pointer;
 
 
 export const NavBtnLink = styled(LinkRouter)`
-border-radius: 50px;
+border-radius:25px;
 background: none;
 white-space: nowrap;
 

@@ -69,7 +69,7 @@ export const HeaderP = styled.p`
     text-align: left;
     @media screen and (max-width: 425px) {
       font-size: 14px;
-    ; 
+    } 
 `;
 
 export const TextWrapper = styled.div`
@@ -106,6 +106,8 @@ export const DescContainer = styled.div`
   }
 `;
 
+
+
 export const DescColContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -113,8 +115,8 @@ export const DescColContainer = styled.div`
   padding: 40px 0 60px 0;
 
   @media screen and (max-width: 425px) {
-    padding: 10px 0 20px 0;
-    ; 
+    padding: 40px 0 60px 0;
+     }
 `;
 
 export const DescCol1 = styled.div`
@@ -128,11 +130,13 @@ export const DescCol2 = styled.div`
   /* background: #D3D3D3; */
 `;
 
+
+
 export const DescriptionTextP = styled.p`
   max-width: 800px;
   font-size: 18px;
   line-height: 1.5em;
-  padding: 20px 0 0 0;
+  padding: 0px 0 10px 0;
   color: black;
 
   @media screen and (max-width: 768px) {
@@ -141,22 +145,11 @@ export const DescriptionTextP = styled.p`
   }
 `;
 
-export const StackTitle= styled.p`
-font-weight: bold;
-font-size: 16px;
-padding: 10px 0;
-
-@media screen and (max-width: 768px) {
-  font-size: 14px;
-  padding: 2px 0;
-  }
-
-`;
-
 export const DescriptionTitle = styled.p`
 font-weight: bold;
 font-size: 18px;
-padding: 10px 0;
+padding:20px 0px;
+
 
 @media screen and (max-width: 768px) {
   font-size: 14px;
@@ -164,16 +157,50 @@ padding: 10px 0;
 
   }
 `;
+
+export const DescLi = styled('ul')`
+  padding: 10px 0
+`;
+
+
+
+export const StackTitle = styled.p`
+font-weight: bold;
+font-size: 16px;
+padding: 20px 0;
+
+@media screen and (max-width: 768px) {
+  font-size: 14px;
+  padding: 2px 0;
+  }
+`;
+
+
 
 export const StackItem = styled.div`
  margin: 10px 0;
  font-size: 1.5rem;
- 
+
  @media screen and (max-width: 425px) {
       font-size: 2em;
-    ; 
+ }
  
 `;
+
+export const StackItemImg = styled.img`
+ width: 22px;
+ height: 22px;  
+  margin-top: 5;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+ 
+ /* @media screen and (max-width: 425px) {
+      font-size: 2em; */
+ 
+ 
+`;
+
 
 //////////////////////////////////////
 // Video Demo Grid Component Styles //
@@ -220,15 +247,14 @@ export const EditorialPriTextP = styled.p`
   max-width: 1100px;
   font-size: 18px;
   line-height: 1.5em;
-  padding: 20px 0 20px 0;
+  padding: 20px 20px 20px 20px;
   color: black;
 
   @media screen and (max-width: 768px) {
     padding: 20px;
     font-size: 14px;
   }
-
-  }`;
+  `;
 
 
 export const EditorialImgWrap = styled.div`
