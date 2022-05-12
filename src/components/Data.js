@@ -11,6 +11,7 @@ import svg3Url from '../images/cryptodex_proj_gfx.svg';
 import svg4Url from '../images/svg-4.svg';
 import svg5Url from '../images/svg-5.svg';
 import materialIcon from '../images/mui_logotype.svg';
+import truffleIcon from '../images/truffle_logotype.svg';
 import multiSigWallet from '../images/multisigwallet.png';
 import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
 
@@ -63,14 +64,14 @@ export const SubNavbarLinks = {
     stackItem1:<FaNodeJs/>,
     stackItem2:<FaReact/>,
     stackItem3:materialIcon,
-    stackItem4:'',
+    stackItem4:truffleIcon,
     stackItem5:'',
     stackItem6:'',
     
     // ==== Description and Paragraphs ====== ///
 
     Question0:'What technolgies were used to build and test this dapp?',
-    Paragraph0: 'React Node JavaScript Solidity CSS Material UI Truffle',
+    Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
     Question1: 'What is a Multisig wallet?',
     Paragraph1: 'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
     Question2:'Why are they useful?',
@@ -85,21 +86,12 @@ export const SubNavbarLinks = {
     Answer4: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
     Paragraph4: '',
 
-    ListItem0:['Node, ', 'Javascript, ', 'Solidity, ','CSS, ','MaterialUI, ','Truffle, '],
-    // ListItem1:'Node',
-    // ListItem2:'Javascript',
-    // ListItem3:'Solidity',
-    // ListItem4:'CSS',
-    // ListItem5:'MaterialUI',
-    // ListItem6:'Truffle',
-    // ListItem7:'',
-    // ListItem8:'',
 
     // ==== Image and Text Primary ====== ///
 
     ImagePrimary: multiSigWallet,
     ImagePrimaryAlt:'MultiSig Wallet Interface',
-    ImagePriText:'Multisignature Wallet UI',
+    ImagePriText:'MultiSig Wallet Interface',
     
    // ==== Image and Text Secondary ====== ///
 

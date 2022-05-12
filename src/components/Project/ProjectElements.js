@@ -190,7 +190,7 @@ export const StackItem = styled.div`
 export const StackItemImg = styled.img`
  width: 22px;
  height: 22px;  
-  margin-top: 5;
+  margin-top: ;
   margin-right: 0;
   margin-left: 0;
   padding-right: 0;
@@ -249,6 +249,22 @@ export const EditorialPriTextP = styled.p`
   line-height: 1.5em;
   padding: 20px 20px 20px 20px;
   color: black;
+
+  @media screen and (max-width: 768px) {
+    padding: 20px;
+    font-size: 14px;
+  }
+  `;
+
+  export const EditorialPriTextPCntr = styled.p`
+  max-width: 1100px;
+  font-size: 18px;
+  line-height: 1.5em;
+  padding: 20px 20px 20px 20px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
   @media screen and (max-width: 768px) {
     padding: 20px;
@@ -354,7 +370,7 @@ export const EditorialTextp= styled.p`
     color: #000;
     line-height:1.5em;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     max-width: 500px;
     padding: 0 30px;
 

@@ -20,12 +20,13 @@ import {
   stackItem0,  
   stackItem1,  
   stackItem2,  
-  stackItem3,  
+  stackItem3, 
+  stackItem4,
   Question0,
   Question1,
   Question2,
   Question3,
-  ListItem0,
+  Paragraph0,
   Paragraph1,
   Paragraph2,
   Paragraph3a,
@@ -43,12 +44,12 @@ import {
                     <StackItem>{ stackItem0 }</StackItem>
                     <StackItem>{ stackItem1 }</StackItem>
                     <StackItem>{ stackItem2 }</StackItem>
-                     <StackItemImg src={stackItem3} alt={"material icon"}/>
+                    <StackItem><StackItemImg src={stackItem3} alt={"Material UI Icon"}/></StackItem>
+                    <StackItem><StackItemImg src={stackItem4} alt={"Truffle Icon"}/></StackItem>
             </DescCol1>
 
             <DescCol2>
-                    <DescriptionTitle>{ Question0 }</DescriptionTitle>
-                    <DescriptionTextP>{ ListItem0 }</DescriptionTextP>
+
                                                 
                     <DescriptionTitle>{ Question1 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
@@ -59,7 +60,8 @@ import {
                     <DescriptionTitle>{ Question3 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph3a }</DescriptionTextP>
                     <DescriptionTextP>{ Paragraph3b }</DescriptionTextP>
-
+                    <DescriptionTitle>{ Question0 }</DescriptionTitle>
+                    <DescriptionTextP>{ Paragraph0 }</DescriptionTextP>
             </DescCol2>
         </DescColContainer>
         </DescContainer>
