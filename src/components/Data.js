@@ -29,7 +29,6 @@ export const SubNavbarLinks = {
   project5: '/project5',
   project6: '/project6',
   project7: '/project7',
-
 };
 
 
@@ -59,7 +58,7 @@ export const SubNavbarLinks = {
     // ==== Tech Stack ====== ///
 
     stackTitle: 'Tech Stack',
-    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
+    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
     stackItem0:<FaEthereum/>,
     stackItem1:<FaNodeJs/>,
     stackItem2:<FaReact/>,
@@ -74,10 +73,10 @@ export const SubNavbarLinks = {
     Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
     Question1: 'What is a Multisig wallet?',
     Paragraph1: 'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
-    Question2:'Why are they useful?',
+    Question2:'What makes Multisig wallets useful?',
     Paragraph2: 'Security and accountability. They make cyberattacks more difficult because it increases the number of failure points a hacker has to navigate. They reduce the dependency on one person or one device. And help eliminate the security concerns of a single private key mechanism.',
 
-    Question3:'How does this Multisignature Dapp work?',
+    Question3:'How does this Multisig wallet dapp function',
     AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
     Paragraph3a: 'This wallet is a 2-out-of-3 signature Dapp. Each of the 3 addresses can propose and approve transactions. They are allowed one vote per transaction. If a transaction is submitted by one member, two quorum members need to approve the transaction to be processed and released.',
     Paragraph3b: 'The signature, or address, has the right to approve or propose a transaction and transfer of funds.',
