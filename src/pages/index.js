@@ -6,7 +6,7 @@ import {
   HomeObjTwo,
   HomeObjThree,
   HomeObjFour,
-  HomeObjFive,
+  HomeObjFive, 
   HomeObjSix,
   BrandingPriObj
 } from '../components/Data';

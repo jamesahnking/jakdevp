@@ -68,7 +68,7 @@ const Navbar = ({ toggle, img, alt }) => {
             
                 
                 >
-                  Crypto Dex{" "}
+                  Fuurzle NFT Factory{" "}
                 </NavLinks>
               </NavItem>
 
@@ -78,7 +78,7 @@ const Navbar = ({ toggle, img, alt }) => {
               
                  
                 >
-                  Pillars & Rings{" "}
+                  Crypto Dex{" "}
                 </NavLinks>
               </NavItem>
 
@@ -87,16 +87,7 @@ const Navbar = ({ toggle, img, alt }) => {
                   to="project4"
    
                 >
-                  Geranimals
-                </NavLinks>
-              </NavItem>
-
-              <NavItem>
-                <NavLinks
-                  to="project5"
-            
-                >
-                  Portfolio
+                  Pillars & Rings NFT
                 </NavLinks>
               </NavItem>
 
