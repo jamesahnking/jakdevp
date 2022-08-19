@@ -14,7 +14,7 @@ import {
   } from "./ProjectElements";
 
   
-  const Project2Description = ({
+  const Project3Description = ({
   
   stackTitle,
   stackItem0,  
@@ -68,4 +68,4 @@ import {
   )
 }
 
-export default Project2Description;
+export default Project3Description;

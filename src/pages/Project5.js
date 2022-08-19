@@ -1,13 +1,24 @@
 import React from 'react';
+import ProjectHeader from '../components/Project/ProjectHeader';
+import Project3Description from '../components/Project/Project2Description';
+import VideoDemoGrid from '../components/Project/VideoDemoGrid';
+import { HomeObjFive } from "../components/Data";
+import ProjectEditorialPriCntr from '../components/Project/ProjectEditorialPriCntr';
 
 
-const Project4 = () => {
+
+const Project5 = () => {
   return (
-    <div>
-        <h1> Project Project 5</h1>
-
-    </div>
+    <>
+      <ProjectHeader {...HomeObjFive}/>
+      <Project3Description {...HomeObjFive}/>
+      {/* <VideoDemoGrid {...HomeObjFive} />  */}
+      {/* <ProjectEditorialPriCntr {...HomeObjFive} /> */}
+      {/* <ProjectEditiorialSec  {...HomeObjOne} />      
+      <ProjectEditiorialSec  {...HomeObjOne} />      
+      <ProjectEditiorialSec  {...HomeObjOne} />       */}
+    </>
   )
 }
 
-export default Project4;
+export default Project5;

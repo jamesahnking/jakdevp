@@ -53,49 +53,38 @@ const Navbar = ({ toggle, img, alt }) => {
             </MobileIcon>
 
             <NavMenu>
+              
               <NavItem>
                 <NavLinks
-                  to="project1"
-              
-                >
+                  to="project1">
                   Multisig Wallet{" "}
                 </NavLinks>
               </NavItem>
 
               <NavItem>
                 <NavLinks
-                  to="project2"
-            
-                
-                >
+                  to="project2">
                   Fuurzle NFT Factory{" "}
                 </NavLinks>
               </NavItem>
 
               <NavItem>
                 <NavLinks
-                  to="project3"
-              
-                 
-                >
+                  to="project3">
                   Crypto Dex{" "}
                 </NavLinks>
               </NavItem>
 
               <NavItem>
                 <NavLinks
-                  to="project4"
-   
-                >
+                  to="project4">
                   Pillars & Rings NFT
                 </NavLinks>
               </NavItem>
 
               <NavItem>
                 <NavLinks
-                      to="project6"
-                 
-                      >About Me</NavLinks>
+                      to="project5">About Me</NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
@@ -112,8 +101,7 @@ const Navbar = ({ toggle, img, alt }) => {
               <SocialIconLink
                 href="https://www.linkedin.com/in/james-ahn-king-6176841/"
                 target="_blank"
-                aria-label="Linkedin"
-              >
+                aria-label="Linkedin">
                 <FaLinkedin />
               </SocialIconLink>
             </NavBtn>
@@ -121,6 +109,7 @@ const Navbar = ({ toggle, img, alt }) => {
             <NavBtn>
               <NavBtnLink to="/">Download CV</NavBtnLink>
             </NavBtn>
+          
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

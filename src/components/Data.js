@@ -110,19 +110,64 @@ export const SubNavbarLinks = {
     lightText: true,
     lightTextDesc: false,
     topLine: 'Project',
-    headline: 'Pillars & Rings Generative NFT Collection on Polygon',
+    headline: 'Fuzzy Fuurzle NFT Marketplace',
     description:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.',
+      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium',
     buttonLabel: 'View The Work',
     imgStart: true,
     img: svg2Url,
     towhere: '/project2',
-    alt: 'Piggybank',
+    alt: 'Fuurzle Image',
     dark: false,
     primary: true,
     darkText: false,
-    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
+    
+    // ==== Tech Stack ====== ///
+
+      stackTitle: 'Tech Stack',
+      videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
+      stackItem0:<FaEthereum/>,
+      stackItem1:<FaNodeJs/>,
+      stackItem2:<FaReact/>,
+      stackItem3:materialIcon,
+      stackItem4:truffleIcon,
+      stackItem5:'',
+      stackItem6:'',
+      
+      // ==== Description and Paragraphs ====== ///
+  
+      Question0:'What technolgies were used to build and test this dapp?',
+      Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
+      Question1: 'What is an NFT Marketplace?',
+      Paragraph1: 'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
+      Question2:'What makes Multisig wallets useful?',
+      Paragraph2: 'Security and accountability. They make cyberattacks more difficult because it increases the number of failure points a hacker has to navigate. They reduce the dependency on one person or one device. And help eliminate the security concerns of a single private key mechanism.',
+  
+      Question3:'How does this Multisig wallet dapp function',
+      AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
+      Paragraph3a: 'This wallet is a 2-out-of-3 signature Dapp. Each of the 3 addresses can propose and approve transactions. They are allowed one vote per transaction. If a transaction is submitted by one member, two quorum members need to approve the transaction to be processed and released.',
+      Paragraph3b: 'The signature, or address, has the right to approve or propose a transaction and transfer of funds.',
+  
+      Question4:'Cras accumsan cursus vestibulum. Phasellus tincidunt in nibh quis rhoncus?',
+      Answer4: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
+      Paragraph4: '',
+  
+      // ==== Image and Text Primary ====== ///
+
+    ImagePrimary: multiSigWallet,
+    ImagePrimaryAlt:'MultiSig Wallet Interface',
+    ImagePriText:'MultiSig Wallet Interface',
+    
+   // ==== Image and Text Secondary ====== ///
+
+    ImageSecondary: imgeditorial,
+    ImageSecondaryAlt:'These are pandas',
+    ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+  
   };
+
+  
 
   ///////////////////////////
 // Project Data - OBJ 3 //
@@ -145,7 +190,50 @@ export const HomeObjThree = {
     dark: false,
     primary: false,
     darkText: true,
-    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
+
+    // ==== Tech Stack ====== ///
+
+    stackTitle: 'Tech Stack',
+    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
+    stackItem0:<FaEthereum/>,
+    stackItem1:<FaNodeJs/>,
+    stackItem2:<FaReact/>,
+    stackItem3:materialIcon,
+    stackItem4:truffleIcon,
+    stackItem5:'',
+    stackItem6:'',
+    
+    // ==== Description and Paragraphs ====== ///
+
+    Question0:'What technolgies were used to build and test this dapp?',
+    Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
+    Question1: 'What is A Crypto Dex?',
+    Paragraph1: 'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
+    Question2:'What makes Multisig wallets useful?',
+    Paragraph2: 'Security and accountability. They make cyberattacks more difficult because it increases the number of failure points a hacker has to navigate. They reduce the dependency on one person or one device. And help eliminate the security concerns of a single private key mechanism.',
+
+    Question3:'How does this Multisig wallet dapp function',
+    AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
+    Paragraph3a: 'This wallet is a 2-out-of-3 signature Dapp. Each of the 3 addresses can propose and approve transactions. They are allowed one vote per transaction. If a transaction is submitted by one member, two quorum members need to approve the transaction to be processed and released.',
+    Paragraph3b: 'The signature, or address, has the right to approve or propose a transaction and transfer of funds.',
+
+    Question4:'Cras accumsan cursus vestibulum. Phasellus tincidunt in nibh quis rhoncus?',
+    Answer4: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
+    Paragraph4: '',
+
+    // ==== Image and Text Primary ====== ///
+
+    ImagePrimary: multiSigWallet,
+    ImagePrimaryAlt:'MultiSig Wallet Interface',
+    ImagePriText:'MultiSig Wallet Interface',
+    
+   // ==== Image and Text Secondary ====== ///
+
+    ImageSecondary: imgeditorial,
+    ImageSecondaryAlt:'These are pandas',
+    ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+  
   };
 
   ///////////////////////////
@@ -158,9 +246,9 @@ export const HomeObjThree = {
     lightText: true,
     lightTextDesc: false,
     topLine: 'Project',
-    headline: 'Compound Flashloan Trading Bot',
+    headline: 'Pillars & Rings',
     description:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.',
+      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
     buttonLabel: 'View The Work',
     imgStart: true,
     img: svg4Url,
@@ -169,9 +257,51 @@ export const HomeObjThree = {
     dark: false,
     primary: true,
     darkText: false,
-    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
-  };
+    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
+ 
+          // ==== Tech Stack ====== ///
+
+    stackTitle: 'Tech Stack',
+    stackItem0:<FaEthereum/>,
+    stackItem1:<FaNodeJs/>,
+    stackItem2:<FaReact/>,
+    stackItem3:materialIcon,
+    stackItem4:truffleIcon,
+    stackItem5:'',
+    stackItem6:'',
+    
+    // ==== Description and Paragraphs ====== ///
+
+    Question0:'What is a Pillar & Ring?',
+    Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
+    Question1: 'What is Pillars & Rings?',
+    Paragraph1: 'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
+    Question2:'What makes Multisig wallets useful?',
+    Paragraph2: 'Security and accountability. They make cyberattacks more difficult because it increases the number of failure points a hacker has to navigate. They reduce the dependency on one person or one device. And help eliminate the security concerns of a single private key mechanism.',
+
+    Question3:'How does this Multisig wallet dapp function',
+    AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
+    Paragraph3a: 'This wallet is a 2-out-of-3 signature Dapp. Each of the 3 addresses can propose and approve transactions. They are allowed one vote per transaction. If a transaction is submitted by one member, two quorum members need to approve the transaction to be processed and released.',
+    Paragraph3b: 'The signature, or address, has the right to approve or propose a transaction and transfer of funds.',
+
+    Question4:'Cras accumsan cursus vestibulum. Phasellus tincidunt in nibh quis rhoncus?',
+    Answer4: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
+    Paragraph4: '',
+
+    // ==== Image and Text Primary ====== ///
+
+  ImagePrimary: multiSigWallet,
+  ImagePrimaryAlt:'MultiSig Wallet Interface',
+  ImagePriText:'MultiSig Wallet Interface',
   
+  // ==== Image and Text Secondary ====== ///
+
+  ImageSecondary: imgeditorial,
+  ImageSecondaryAlt:'These are pandas',
+  ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+
+};
+
 ///////////////////////////
 // Project Data - OBJ 5 //
 //////////////////////////
@@ -181,10 +311,10 @@ export const HomeObjThree = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Project',
-    headline: 'James Ahn-King Fullstack Development Portfolio',
+    topLine: '...',
+    headline: 'ABOUT JAK',
     description:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.',
+      '(^_^) [o_o] (^.^) {-_-}',
     buttonLabel: 'View The Work',
     imgStart: false,
     img: svg5Url,
@@ -193,8 +323,51 @@ export const HomeObjThree = {
     dark: false,
     primary: false,
     darkText: true,
-    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
-  };
+    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
+          // ==== Tech Stack ====== ///
+
+          stackTitle: 'Tech Stack',
+          videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
+          stackItem0:<FaEthereum/>,
+          stackItem1:<FaNodeJs/>,
+          stackItem2:<FaReact/>,
+          stackItem3:materialIcon,
+          stackItem4:truffleIcon,
+          stackItem5:'',
+          stackItem6:'',
+          
+          // ==== Description and Paragraphs ====== ///
+      
+          Question0:'What technolgies were used to build and test this dapp?',
+          Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
+          Question1: 'What is an NFT Marketplace?',
+          Paragraph1: 'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
+          Question2:'What makes Multisig wallets useful?',
+          Paragraph2: 'Security and accountability. They make cyberattacks more difficult because it increases the number of failure points a hacker has to navigate. They reduce the dependency on one person or one device. And help eliminate the security concerns of a single private key mechanism.',
+      
+          Question3:'How does this Multisig wallet dapp function',
+          AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
+          Paragraph3a: 'This wallet is a 2-out-of-3 signature Dapp. Each of the 3 addresses can propose and approve transactions. They are allowed one vote per transaction. If a transaction is submitted by one member, two quorum members need to approve the transaction to be processed and released.',
+          Paragraph3b: 'The signature, or address, has the right to approve or propose a transaction and transfer of funds.',
+      
+          Question4:'Cras accumsan cursus vestibulum. Phasellus tincidunt in nibh quis rhoncus?',
+          Answer4: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
+          Paragraph4: '',
+      
+          // ==== Image and Text Primary ====== ///
+    
+        ImagePrimary: multiSigWallet,
+        ImagePrimaryAlt:'MultiSig Wallet Interface',
+        ImagePriText:'MultiSig Wallet Interface',
+        
+       // ==== Image and Text Secondary ====== ///
+    
+        ImageSecondary: imgeditorial,
+        ImageSecondaryAlt:'These are pandas',
+        ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+      
+      };
+  
 
 ///////////////////////////
 // Project Data - OBJ 6 //
