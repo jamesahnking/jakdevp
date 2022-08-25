@@ -64,7 +64,7 @@ const Navbar = ({ toggle, img, alt }) => {
               <NavItem>
                 <NavLinks
                   to="project2">
-                  Fuurzle NFT Factory{" "}
+                  NFT Marketplace{" "}
                 </NavLinks>
               </NavItem>
 

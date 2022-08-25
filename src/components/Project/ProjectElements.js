@@ -141,7 +141,6 @@ export const DescriptionTextP = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 14px;
-
   }
 `;
 
@@ -158,10 +157,26 @@ padding:20px 0px;
   }
 `;
 
-export const DescLi = styled('ul')`
-  padding: 10px 0
+export const DescUl = styled('ol')`
+  font-size: 16px;
+  padding: 0 0 10PX 20px;
+
+  @media screen and (max-width: 768px) {
+  font-size: 14px;
+  padding: 2px 0;
+  padding: 0 0 10px 20px;
+  }
 `;
 
+export const DescLi = styled('li')`
+ font-size: 18px;
+ line-height: 1.5em; 
+ color: black;
+
+ @media screen and (max-width: 768px) {
+  font-size: 14px;
+  }
+`;
 
 
 export const StackTitle = styled.p`
@@ -174,7 +189,6 @@ padding: 20px 0;
   padding: 2px 0;
   }
 `;
-
 
 
 export const StackItem = styled.div`

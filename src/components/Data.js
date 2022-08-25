@@ -5,10 +5,10 @@
 import jaklogopritriangle from '../images/jak_primary_tri_logo.svg';
 import jaklogotype from '../images/jaklogotype.svg';
 import imgeditorial from '../images/img_editorial.png';
-import svg1Url from '../images/multisig_proj_gfx.svg';
-import svg2Url from '../images/pilarsAndRings_proj_gfx.svg';
-import svg3Url from '../images/cryptodex_proj_gfx.svg';
-import svg4Url from '../images/svg-4.svg';
+import svg1Url from '../images/multisig_proj_gfx-01-01.svg';
+import svg2Url from '../images/fuzzyfuurzle_proj_gfx-01-01.svg';
+import svg3Url from '../images/adex_proj_gfx-01-01.svg';
+import svg4Url from '../images/pillars_proj_gfx-01-01.svg';
 import svg5Url from '../images/svg-5.svg';
 import materialIcon from '../images/mui_logotype.svg';
 import truffleIcon from '../images/truffle_logotype.svg';
@@ -112,21 +112,20 @@ export const SubNavbarLinks = {
     topLine: 'Project',
     headline: 'Fuzzy Fuurzle NFT Marketplace',
     description:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium',
+      'NFT Marketplace for Ethereum based blockchains',
     buttonLabel: 'View The Work',
     imgStart: true,
     img: svg2Url,
     towhere: '/project2',
     alt: 'Fuurzle Image',
     dark: false,
-    primary: true,
+    primary: false,
     darkText: false,
     videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
     
     // ==== Tech Stack ====== ///
 
       stackTitle: 'Tech Stack',
-      videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
       stackItem0:<FaEthereum/>,
       stackItem1:<FaNodeJs/>,
       stackItem2:<FaReact/>,
@@ -138,17 +137,22 @@ export const SubNavbarLinks = {
       // ==== Description and Paragraphs ====== ///
   
       Question0:'What technolgies were used to build and test this dapp?',
-      Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
+      Paragraph0: 'Solidity, NodeJS, Next JS, Tailwind, TypeScript, OpenZeppelin, and Truffle',
       Question1: 'What is an NFT Marketplace?',
-      Paragraph1: 'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
-      Question2:'What makes Multisig wallets useful?',
-      Paragraph2: 'Security and accountability. They make cyberattacks more difficult because it increases the number of failure points a hacker has to navigate. They reduce the dependency on one person or one device. And help eliminate the security concerns of a single private key mechanism.',
-  
-      Question3:'How does this Multisig wallet dapp function',
-      AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
-      Paragraph3a: 'This wallet is a 2-out-of-3 signature Dapp. Each of the 3 addresses can propose and approve transactions. They are allowed one vote per transaction. If a transaction is submitted by one member, two quorum members need to approve the transaction to be processed and released.',
-      Paragraph3b: 'The signature, or address, has the right to approve or propose a transaction and transfer of funds.',
-  
+      Paragraph1: 'An NFT marketplace is an application that allows a user to display, trade, buy, sell, and often mint NFTs.',
+      Question2:'How does the Fuzzy Fuurzle NFT marketplace function?',
+      Paragraph2: 'This application allows a user to:',
+      
+      PlistItem1:'Mint an Fuzzy Furrzle NFT on an Ethereum blockchain',
+      PlistItem2:'Generate an NFT JSON file and uploading to IPFS',
+      PlistItem3:'Append image URI to JSON and upload the image to IPFS',
+      PlistItem4:'Specify the numeric value for pre-defined Fuzzy Furrzle NFT traits.',
+      PlistItem5:'Set the price of an NFT ',
+      PlistItem6:'View NFT in the users profile',
+      PlistItem7:'List NFT for Sale on the Marketplace',
+      
+      Question3:'What makes an NFT Marketplace that can mint NFTs useful?',      
+      Paragraph3a: 'A non-technical user could use a marketplace application to generate, share, and curate their NFT project effortlessly in seconds. Minting and storing an NFT takes technical know-how, a barrier to widespread adoption.',
       Question4:'Cras accumsan cursus vestibulum. Phasellus tincidunt in nibh quis rhoncus?',
       Answer4: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
       Paragraph4: '',
@@ -181,9 +185,9 @@ export const HomeObjThree = {
     topLine: 'Project',
     headline: 'A Crypto Dex',
     description:
-      "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "A peer-to-peer marketplace that coordinates the trading of crypto assets between users",
     buttonLabel: 'View The Work',
-    imgStart: false,
+    imgStart: true,
     img: svg3Url,
     towhere: '/project3',
     alt: 'Papers',
@@ -195,7 +199,6 @@ export const HomeObjThree = {
     // ==== Tech Stack ====== ///
 
     stackTitle: 'Tech Stack',
-    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
     stackItem0:<FaEthereum/>,
     stackItem1:<FaNodeJs/>,
     stackItem2:<FaReact/>,
@@ -207,11 +210,22 @@ export const HomeObjThree = {
     // ==== Description and Paragraphs ====== ///
 
     Question0:'What technolgies were used to build and test this dapp?',
-    Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
+    Paragraph0: 'Solidity, NodeJS, React, Boostrap, and Truffle',
     Question1: 'What is A Crypto Dex?',
-    Paragraph1: 'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
-    Question2:'What makes Multisig wallets useful?',
-    Paragraph2: 'Security and accountability. They make cyberattacks more difficult because it increases the number of failure points a hacker has to navigate. They reduce the dependency on one person or one device. And help eliminate the security concerns of a single private key mechanism.',
+    Paragraph1: 'DEX is short for Decentralized Exchange. A DEX is a peer-to-peer marketplace that coordinates the trading of crypto assets between users. DEX transactions occur without the use of an intermediary. This action is called disintermediation which means removing the middleman and allowing users to do business directly.',
+    Question2:'How does this DEX function? ',
+    Paragraph2: 'This DEX uses a conventional exchange order book.', 
+    Paragraph2a: 'A user can create one of four types of orders:', 
+
+      PlistItem1:'A Market Buy Order',
+      PlistItem2:'Market Sell Order',
+      PlistItem3:'Limit Buy Order',
+      PlistItem4:'Limit Sell Order',
+    
+    Paragraph2b: 'Like most DEXs, it has three main components, a user wallet, a frontend application for the trader to interact with, and a smart contract. Usually, a DEX will have several smart contracts, but this project only has one.',
+    Paragraph2c: 'It trades ERC20 tokens, and DAI is used to quote the price for each crypto asset.',
+    Paragraph2d: 'Before a user can trade, they must transfer tokens to the DEXs wallet. After the transaction is approved, the DEX contract receives the funds from the users wallet. When the users are ready to cash out, they withdraw their funds from the DEX contract.',
+    Paragraph2e: 'The frontend application handles user interaction and connects to the users wallet. The users personal wallet is triggered when a user clicks a transaction-related call to action on the  DEXs front. Lastly, the smart contract runs the DEXs logic and order book.',
 
     Question3:'How does this Multisig wallet dapp function',
     AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
@@ -255,7 +269,7 @@ export const HomeObjThree = {
     towhere: '/project4',
     alt: 'Piggybank',
     dark: false,
-    primary: true,
+    primary: false,
     darkText: false,
     videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
  

@@ -11,6 +11,8 @@ import {
     DescriptionTitle,
     StackTitle,
     StackItemImg,
+    DescUl,
+    DescLi, 
   } from "./ProjectElements";
 
   
@@ -29,10 +31,16 @@ import {
   Paragraph0,
   Paragraph1,
   Paragraph2,
+  Paragraph2a,
+  Paragraph2b,
+  Paragraph2c,
+  Paragraph2d,
   Paragraph3a,
   Paragraph3b,
-  
-
+  PlistItem1,
+  PlistItem2,
+  PlistItem3,  
+  PlistItem4
 }) => {
 
   return (
@@ -56,6 +64,18 @@ import {
                    
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
+                    <DescriptionTextP>{ Paragraph2a }</DescriptionTextP>
+                    <DescUl>
+            
+                      <DescLi>{PlistItem1}</DescLi>
+                      <DescLi>{PlistItem2}</DescLi>
+                      <DescLi>{PlistItem3}</DescLi>
+                      <DescLi>{PlistItem4}</DescLi>
+         
+                    </DescUl>
+                    <DescriptionTextP>{ Paragraph2b }</DescriptionTextP>
+                    <DescriptionTextP>{ Paragraph2c }</DescriptionTextP>
+                    <DescriptionTextP>{ Paragraph2d }</DescriptionTextP>
                                  
                     <DescriptionTitle>{ Question3 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph3a }</DescriptionTextP>

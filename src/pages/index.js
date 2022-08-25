@@ -16,10 +16,12 @@ const Home = () => {
   return (
     <>
       <HeroSection {...BrandingPriObj} />
-      <InfoModule {...HomeObjOne} />
       <InfoModule {...HomeObjTwo} />
       <InfoModule {...HomeObjThree} />
-      {/* <InfoModule {...HomeObjFour} /> */}
+      <InfoModule {...HomeObjOne} />
+     
+   
+      <InfoModule {...HomeObjFour} />
       {/* <InfoModule {...HomeObjFive} />
       <InfoModule {...HomeObjSix} /> */}
     </>

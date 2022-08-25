@@ -25,7 +25,7 @@ const HeroSection = ({ img, alt }) => {
             <ImgWrap>
           <Img src={img} alt={alt} />
             </ImgWrap>
-          <HeroP>JAMES AHN-KING<br />Fullstack Junior Solidity Developer</HeroP>
+          <HeroP>JAMES AHN-KING<br />Developer - Web3 - Blockchain - Solidity - React</HeroP>
             <HeroBtnWrapper>
                 <Button 
                   to="project1"
