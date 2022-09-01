@@ -53,8 +53,9 @@ import {
                     <StackTitle>{ stackTitle }</StackTitle> 
                     <StackItem>{ stackItem0 }</StackItem>
                     <StackItem>{ stackItem1 }</StackItem>
-                    <StackItem><StackItemImg src={stackItem2} alt={"Material UI Icon"}/></StackItem>
-                    <StackItem><StackItemImg src={stackItem3} alt={"Material UI Icon"}/></StackItem>
+                    <StackItem><StackItemImg src={stackItem2} alt={"NextJS Icon"}/></StackItem>
+                    <StackItem><StackItemImg src={stackItem3} alt={"Truffle Icon"}/></StackItem>
+                    <StackItem><StackItemImg src={stackItem4} alt={"Tailwidn Icon"}/></StackItem>
                     {/* <StackItem><StackItemImg src={stackItem4} alt={"Truffle Icon"}/></StackItem>
                     <StackItem><StackItemImg src={stackItem5} alt={"Next J"}/></StackItem> */}
 

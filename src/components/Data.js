@@ -12,6 +12,7 @@ import svg4Url from '../images/pillars_proj_gfx-01-01.svg';
 import svg5Url from '../images/svg-5.svg';
 import materialIcon from '../images/mui_logotype.svg';
 import truffleIcon from '../images/truffle_logotype.svg';
+import tailwindIcon from '../images/tailwindlogotype.svg';
 import nextjsIcon from '../images/nextdotjs.svg';
 import multiSigWallet from '../images/multisigwallet.png';
 import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
@@ -131,7 +132,7 @@ export const SubNavbarLinks = {
       stackItem1:<FaNodeJs/>,
       stackItem2:nextjsIcon,
       stackItem3:truffleIcon,
-      stackItem4:'',
+      stackItem4:tailwindIcon,
       stackItem5:'',
       stackItem6:'',
       
