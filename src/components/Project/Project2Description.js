@@ -47,7 +47,7 @@ import {
 
   return (
       <DescContainer>
- 
+        
         <DescColContainer>
             <DescCol1>
                     <StackTitle>{ stackTitle }</StackTitle> 

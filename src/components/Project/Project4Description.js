@@ -22,6 +22,7 @@ import {
   stackItem2,  
   stackItem3, 
   stackItem4,
+  stackItem5,
   Question0,
   Question1,
   Question2,
@@ -46,6 +47,7 @@ import {
                     <StackItem>{ stackItem2 }</StackItem>
                     <StackItem><StackItemImg src={stackItem3} alt={"Material UI Icon"}/></StackItem>
                     <StackItem><StackItemImg src={stackItem4} alt={"Truffle Icon"}/></StackItem>
+                    <StackItem><StackItemImg src={stackItem5} alt={"Truffle Icon"}/></StackItem>
             </DescCol1>
 
             <DescCol2>

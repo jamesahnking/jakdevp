@@ -13,6 +13,7 @@ import svg5Url from '../images/svg-5.svg';
 import materialIcon from '../images/mui_logotype.svg';
 import truffleIcon from '../images/truffle_logotype.svg';
 import tailwindIcon from '../images/tailwindlogotype.svg';
+import adobeIcon from '../images/adobe_logotype_box.svg';
 import nextjsIcon from '../images/nextdotjs.svg';
 import multiSigWallet from '../images/multisigwallet.png';
 import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
@@ -283,10 +284,10 @@ export const HomeObjThree = {
     stackTitle: 'Tech Stack',
     stackItem0:<FaEthereum/>,
     stackItem1:<FaNodeJs/>,
-    stackItem2:<FaReact/>,
+    stackItem2:'',
     stackItem3:materialIcon,
     stackItem4:truffleIcon,
-    stackItem5:'',
+    stackItem5:adobeIcon,
     stackItem6:'',
     
     // ==== Description and Paragraphs ====== ///
