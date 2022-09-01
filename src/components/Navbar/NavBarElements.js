@@ -119,7 +119,7 @@ color: #fff;
 display: flex;
 align-items: center;
 text-decoration: none;
-padding: 0 .7rem;
+padding: 0.7rem;
 height: 100%;
 cursor: pointer;
 

@@ -12,6 +12,7 @@ import svg4Url from '../images/pillars_proj_gfx-01-01.svg';
 import svg5Url from '../images/svg-5.svg';
 import materialIcon from '../images/mui_logotype.svg';
 import truffleIcon from '../images/truffle_logotype.svg';
+import nextjsIcon from '../images/nextdotjs.svg';
 import multiSigWallet from '../images/multisigwallet.png';
 import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
 
@@ -39,21 +40,21 @@ export const SubNavbarLinks = {
 
   export const HomeObjOne = {
     id: 'project1',
-    lightBg: true,
-    lightText: false,
+    lightBg: false,
+    lightText: true,
     lightTextDesc: false,
     topLine: 'PROJECT',
     headline: 'MultiSig Wallet',
     description:
       'A multi-signature crypto wallet that runs on an Ethereum based blockchain requiring a 3 member approval to release funds.',
     buttonLabel: 'View The Work',
-    imgStart: false,
+    imgStart: true,
     img: svg1Url,
     towhere: '/project1',
     alt: 'Mutliple Singature Graphic',
     dark: false,
-    primary: false,
-    darkText: true,
+    primary: true,
+    darkText: false,
 
     // ==== Tech Stack ====== ///
 
@@ -128,9 +129,9 @@ export const SubNavbarLinks = {
       stackTitle: 'Tech Stack',
       stackItem0:<FaEthereum/>,
       stackItem1:<FaNodeJs/>,
-      stackItem2:<FaReact/>,
-      stackItem3:materialIcon,
-      stackItem4:truffleIcon,
+      stackItem2:nextjsIcon,
+      stackItem3:truffleIcon,
+      stackItem4:'',
       stackItem5:'',
       stackItem6:'',
       
@@ -141,15 +142,13 @@ export const SubNavbarLinks = {
       Question1: 'What is an NFT Marketplace?',
       Paragraph1: 'An NFT marketplace is an application that allows a user to display, trade, buy, sell, and often mint NFTs.',
       Question2:'How does the Fuzzy Fuurzle NFT marketplace function?',
-      Paragraph2: 'This application allows a user to:',
+      Paragraph2: 'A user can mint an NFT using the application. They enter a name, description, image, and predetermined traits through a form. The application combines these pieces to generate and store the NFT and its parts. This application allows a user to:',
       
       PlistItem1:'Mint an Fuzzy Furrzle NFT on an Ethereum blockchain',
-      PlistItem2:'Generate an NFT JSON file and uploading to IPFS',
-      PlistItem3:'Append image URI to JSON and upload the image to IPFS',
-      PlistItem4:'Specify the numeric value for pre-defined Fuzzy Furrzle NFT traits.',
-      PlistItem5:'Set the price of an NFT ',
-      PlistItem6:'View NFT in the users profile',
-      PlistItem7:'List NFT for Sale on the Marketplace',
+      PlistItem2:'Specify the numeric value for pre-defined Fuzzy Furrzle NFT traits.',
+      PlistItem3:'Set the price of an NFT ',
+      PlistItem4:'View NFT in the users profile',
+      PlistItem5:'List NFT for Sale on the Marketplace',
       
       Question3:'What makes an NFT Marketplace that can mint NFTs useful?',      
       Paragraph3a: 'A non-technical user could use a marketplace application to generate, share, and curate their NFT project effortlessly in seconds. Minting and storing an NFT takes technical know-how, a barrier to widespread adoption.',
@@ -187,7 +186,7 @@ export const HomeObjThree = {
     description:
       "A peer-to-peer marketplace that coordinates the trading of crypto assets between users",
     buttonLabel: 'View The Work',
-    imgStart: true,
+    imgStart: false,
     img: svg3Url,
     towhere: '/project3',
     alt: 'Papers',
@@ -212,22 +211,27 @@ export const HomeObjThree = {
     Question0:'What technolgies were used to build and test this dapp?',
     Paragraph0: 'Solidity, NodeJS, React, Boostrap, and Truffle',
     Question1: 'What is A Crypto Dex?',
-    Paragraph1: 'DEX is short for Decentralized Exchange. A DEX is a peer-to-peer marketplace that coordinates the trading of crypto assets between users. DEX transactions occur without the use of an intermediary. This action is called disintermediation which means removing the middleman and allowing users to do business directly.',
+    Paragraph1: 'DEX is short for Decentralized Exchange. A DEX is a peer-to-peer marketplace that coordinates the trading of crypto assets between users without an intermediary.',
     Question2:'How does this DEX function? ',
-    Paragraph2: 'This DEX uses a conventional exchange order book.', 
-    Paragraph2a: 'A user can create one of four types of orders:', 
+    Paragraph2: 'A user can create one of four types of orders:', 
+    Paragraph2a: '', 
 
       PlistItem1:'A Market Buy Order',
-      PlistItem2:'Market Sell Order',
-      PlistItem3:'Limit Buy Order',
-      PlistItem4:'Limit Sell Order',
-    
-    Paragraph2b: 'Like most DEXs, it has three main components, a user wallet, a frontend application for the trader to interact with, and a smart contract. Usually, a DEX will have several smart contracts, but this project only has one.',
-    Paragraph2c: 'It trades ERC20 tokens, and DAI is used to quote the price for each crypto asset.',
+      PlistItem2:'A Market Sell Order',
+      PlistItem3:'A Limit Buy Order',
+      PlistItem4:'A Limit Sell Order',
+      
+    Paragraph2b: 'The DEX has three main components:',
+
+      PlistItem5:'A user wallet',
+      PlistItem6:'A frontend application for the trader to interact with',
+      PlistItem7:'A smart contract',
+
+    Paragraph2c: 'Usually, a DEX will have several smart contracts, but this project only has one.The DEX trades ERC20 tokens, and DAI is used to quote the price for each crypto asset.',
     Paragraph2d: 'Before a user can trade, they must transfer tokens to the DEXs wallet. After the transaction is approved, the DEX contract receives the funds from the users wallet. When the users are ready to cash out, they withdraw their funds from the DEX contract.',
     Paragraph2e: 'The frontend application handles user interaction and connects to the users wallet. The users personal wallet is triggered when a user clicks a transaction-related call to action on the  DEXs front. Lastly, the smart contract runs the DEXs logic and order book.',
 
-    Question3:'How does this Multisig wallet dapp function',
+    Question3:'How does the multiple signature functionality work?',
     AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
     Paragraph3a: 'This wallet is a 2-out-of-3 signature Dapp. Each of the 3 addresses can propose and approve transactions. They are allowed one vote per transaction. If a transaction is submitted by one member, two quorum members need to approve the transaction to be processed and released.',
     Paragraph3b: 'The signature, or address, has the right to approve or propose a transaction and transfer of funds.',
@@ -256,21 +260,21 @@ export const HomeObjThree = {
 
   export const HomeObjFour = {
     id: 'project4',
-    lightBg: false,
-    lightText: true,
+    lightBg: true,
+    lightText: false,
     lightTextDesc: false,
     topLine: 'Project',
     headline: 'Pillars & Rings',
     description:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
     buttonLabel: 'View The Work',
-    imgStart: true,
+    imgStart: false,
     img: svg4Url,
     towhere: '/project4',
     alt: 'Piggybank',
     dark: false,
     primary: false,
-    darkText: false,
+    darkText: true,
     videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
  
           // ==== Tech Stack ====== ///

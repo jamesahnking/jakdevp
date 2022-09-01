@@ -25,6 +25,7 @@ import {
   stackItem2,  
   stackItem3, 
   stackItem4,
+  stackItem5,
   Question0,
   Question1,
   Question2,
@@ -52,29 +53,26 @@ import {
                     <StackTitle>{ stackTitle }</StackTitle> 
                     <StackItem>{ stackItem0 }</StackItem>
                     <StackItem>{ stackItem1 }</StackItem>
-                    <StackItem>{ stackItem2 }</StackItem>
+                    <StackItem><StackItemImg src={stackItem2} alt={"Material UI Icon"}/></StackItem>
                     <StackItem><StackItemImg src={stackItem3} alt={"Material UI Icon"}/></StackItem>
-                    <StackItem><StackItemImg src={stackItem4} alt={"Truffle Icon"}/></StackItem>
+                    {/* <StackItem><StackItemImg src={stackItem4} alt={"Truffle Icon"}/></StackItem>
+                    <StackItem><StackItemImg src={stackItem5} alt={"Next J"}/></StackItem> */}
+
+
             </DescCol1>
 
-            <DescCol2>
-
-                                                
+            <DescCol2>                                             
                     <DescriptionTitle>{ Question1 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
-
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
+
                     <DescUl>
-            
-                      <DescLi>{PlistItem1}</DescLi>
-                      <DescLi>{PlistItem2}</DescLi>
-                      <DescLi>{PlistItem3}</DescLi>
-                      <DescLi>{PlistItem4}</DescLi>
-                      <DescLi>{PlistItem5}</DescLi>
-                      <DescLi>{PlistItem6}</DescLi>
-                      <DescLi>{PlistItem7}</DescLi>
-            
+                        <DescLi>{PlistItem1}</DescLi>
+                        <DescLi>{PlistItem2}</DescLi>
+                        <DescLi>{PlistItem3}</DescLi>
+                        <DescLi>{PlistItem4}</DescLi>
+                        <DescLi>{PlistItem5}</DescLi>
                     </DescUl>
                                  
                     <DescriptionTitle>{ Question3 }</DescriptionTitle>

@@ -19,8 +19,6 @@ const Home = () => {
       <InfoModule {...HomeObjTwo} />
       <InfoModule {...HomeObjThree} />
       <InfoModule {...HomeObjOne} />
-     
-   
       <InfoModule {...HomeObjFour} />
       {/* <InfoModule {...HomeObjFive} />
       <InfoModule {...HomeObjSix} /> */}
