@@ -16,6 +16,8 @@ import tailwindIcon from '../images/tailwindlogotype.svg';
 import adobeIcon from '../images/adobe_logotype_box.svg';
 import nextjsIcon from '../images/nextdotjs.svg';
 import multiSigWallet from '../images/multisigwallet.png';
+import adexUIFull from '../images/dex_UI_Full.png';
+import adexLanding from '../images/dex_UI_Landing.png';
 import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
 
 
@@ -244,15 +246,15 @@ export const HomeObjThree = {
 
     // ==== Image and Text Primary ====== ///
 
-    ImagePrimary: multiSigWallet,
+    ImagePrimary: adexLanding,
     ImagePrimaryAlt:'MultiSig Wallet Interface',
-    ImagePriText:'MultiSig Wallet Interface',
+    ImagePriText:'ADEX DAI Landing ',
     
    // ==== Image and Text Secondary ====== ///
 
-    ImageSecondary: imgeditorial,
+    ImageSecondary: adexUIFull,
     ImageSecondaryAlt:'These are pandas',
-    ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+    ImageSecText:'Full ADEX Interface'
   
   };
 
@@ -347,7 +349,6 @@ export const HomeObjThree = {
           // ==== Tech Stack ====== ///
 
           stackTitle: 'Tech Stack',
-          videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
           stackItem0:<FaEthereum/>,
           stackItem1:<FaNodeJs/>,
           stackItem2:<FaReact/>,

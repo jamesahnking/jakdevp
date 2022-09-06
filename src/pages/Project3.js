@@ -4,7 +4,7 @@ import Project3Description from '../components/Project/Project3Description';
 import VideoDemoGrid from '../components/Project/VideoDemoGrid';
 import { HomeObjThree } from "../components/Data";
 import ProjectEditorialPriCntr from '../components/Project/ProjectEditorialPriCntr';
-
+import ProjectEditorialPriCntSec from '../components/Project/ProjectEditorialPriCntSec';
 
 
 const Project3 = () => {
@@ -14,8 +14,8 @@ const Project3 = () => {
       <Project3Description {...HomeObjThree}/>
       <VideoDemoGrid {...HomeObjThree} /> 
       <ProjectEditorialPriCntr {...HomeObjThree} />
+      <ProjectEditorialPriCntSec  {...HomeObjThree} />      
       {/* <ProjectEditiorialSec  {...HomeObjOne} />      
-      <ProjectEditiorialSec  {...HomeObjOne} />      
       <ProjectEditiorialSec  {...HomeObjOne} />       */}
     </>
   )

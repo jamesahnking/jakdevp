@@ -272,10 +272,11 @@ export const EditorialPriTextP = styled.p`
 
   export const EditorialPriTextPCntr = styled.p`
   max-width: 1100px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5em;
-  padding: 20px 20px 20px 20px;
-  color: black;
+  /* background-color: red; */
+  padding: 10px 20px 5px 20px;
+  color: grey;
   justify-content: center;
   align-items: center;
   text-align: center;
