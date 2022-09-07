@@ -22,6 +22,9 @@ import nftMarkeplaceLanding from '../images/nft_ui_landing.png';
 import nftMarkeplaceProfile from '../images/nft_ui_profile.png';
 import nftMarkeplaceCreate from '../images/nft_ui_create.png';
 import nftMarkeplaceMetatdata from '../images/nft_ui_metadata.png';
+import pandrContract from '../images/pandr_ui_contract.png';
+import pandrMinter from '../images/pandr_ui_minter.png';
+import pandrOpensea from '../images/pandr_ui_opensea.png';
 import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
 
 
@@ -313,10 +316,10 @@ export const HomeObjThree = {
     Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
     Question1: 'What is Pillars & Rings?',
     Paragraph1: 'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
-    Question2:'What makes Multisig wallets useful?',
+    Question2:'What is Pillars & Rings?',
     Paragraph2: 'Security and accountability. They make cyberattacks more difficult because it increases the number of failure points a hacker has to navigate. They reduce the dependency on one person or one device. And help eliminate the security concerns of a single private key mechanism.',
 
-    Question3:'How does this Multisig wallet dapp function',
+    Question3:'What is Pillars & Rings?',
     AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
     Paragraph3a: 'This wallet is a 2-out-of-3 signature Dapp. Each of the 3 addresses can propose and approve transactions. They are allowed one vote per transaction. If a transaction is submitted by one member, two quorum members need to approve the transaction to be processed and released.',
     Paragraph3b: 'The signature, or address, has the right to approve or propose a transaction and transfer of funds.',
@@ -327,19 +330,19 @@ export const HomeObjThree = {
 
     // ==== Image and Text Primary ====== ///
 
-  ImagePrimary: multiSigWallet,
+  ImagePrimary: pandrMinter,
   ImagePrimaryAlt:'MultiSig Wallet Interface',
   ImagePriText:'MultiSig Wallet Interface',
   
   // ==== Image and Text Secondary ====== ///
 
-  ImageSecondary: nftMarkeplaceCreate,
+  ImageSecondary: pandrOpensea,
   ImageSecondaryAlt:'These are pandas',
   ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
  
   // ==== Image and Text Tertiary ====== ///
 
-  ImageTertiary: nftMarkeplaceProfile,
+  ImageTertiary: pandrContract,
   ImageTertiaryAlt:'These are pandas',
   ImageTerText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
 
