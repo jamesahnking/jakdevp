@@ -251,7 +251,7 @@ export const EditorialContainer= styled.div`
 
 export const EditorialWrapper = styled.div`
   /* background: #e2ece9; */
-  padding: 20px 0 20px 0;
+  padding: 10px 0 10px 0;
   max-width: 1100px;
     
 `;
@@ -275,7 +275,7 @@ export const EditorialPriTextP = styled.p`
   font-size: 16px;
   line-height: 1.5em;
   /* background-color: red; */
-  padding: 10px 20px 5px 20px;
+  padding: 10px 20px;
   color: grey;
   justify-content: center;
   align-items: center;

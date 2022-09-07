@@ -18,11 +18,15 @@ import nextjsIcon from '../images/nextdotjs.svg';
 import multiSigWallet from '../images/multisigwallet.png';
 import adexUIFull from '../images/dex_UI_Full.png';
 import adexLanding from '../images/dex_UI_Landing.png';
+import nftMarkeplaceLanding from '../images/nft_ui_landing.png';
+import nftMarkeplaceProfile from '../images/nft_ui_profile.png';
+import nftMarkeplaceCreate from '../images/nft_ui_create.png';
+import nftMarkeplaceMetatdata from '../images/nft_ui_metadata.png';
 import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
 
 
 //////////////////////////
-// Sub Navigation -  //
+// Sub Navigation -  // 
 //////////////////////////
 
 export const SubNavbarLinks = {
@@ -160,18 +164,29 @@ export const SubNavbarLinks = {
       Answer4: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
       Paragraph4: '',
   
-      // ==== Image and Text Primary ====== ///
+    // ==== Image and Text Primary ====== ///
 
-    ImagePrimary: multiSigWallet,
-    ImagePrimaryAlt:'MultiSig Wallet Interface',
-    ImagePriText:'MultiSig Wallet Interface',
+    ImagePrimary: nftMarkeplaceLanding,
+    ImagePrimaryAlt:'NFT Marketplace ',
+    ImagePriText:'NFT Marketplace Landing',
     
    // ==== Image and Text Secondary ====== ///
-
-    ImageSecondary: imgeditorial,
-    ImageSecondaryAlt:'These are pandas',
-    ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+   
+   ImageSecondary: nftMarkeplaceCreate,
+   ImageSecondaryAlt:'These are pandas',
+   ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
   
+   // ==== Image and Text Tertiary ====== ///
+
+   ImageTertiary: nftMarkeplaceProfile,
+   ImageTertiaryAlt:'These are pandas',
+   ImageTerText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
+
+   // ==== Image and Text Quatenary ====== ///
+
+   ImageQuatenary: nftMarkeplaceMetatdata,
+   ImageQuatenaryAlt:'These are pandas',
+   ImageQuaText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
   };
 
   
@@ -318,11 +333,22 @@ export const HomeObjThree = {
   
   // ==== Image and Text Secondary ====== ///
 
-  ImageSecondary: imgeditorial,
+  ImageSecondary: nftMarkeplaceCreate,
   ImageSecondaryAlt:'These are pandas',
-  ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+  ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
+ 
+  // ==== Image and Text Tertiary ====== ///
 
-};
+  ImageTertiary: nftMarkeplaceProfile,
+  ImageTertiaryAlt:'These are pandas',
+  ImageTerText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
+
+  // ==== Image and Text Quatenary ====== ///
+
+  ImageQuatenary: nftMarkeplaceMetatdata,
+  ImageQuatenaryAlt:'These are pandas',
+  ImageQuaText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+ };
 
 ///////////////////////////
 // Project Data - OBJ 5 //

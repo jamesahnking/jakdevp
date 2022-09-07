@@ -4,6 +4,9 @@ import Project2Description from '../components/Project/Project2Description';
 import VideoDemoGrid from '../components/Project/VideoDemoGrid';
 import { HomeObjTwo } from "../components/Data";
 import ProjectEditorialPriCntr from '../components/Project/ProjectEditorialPriCntr';
+import ProjectEditorialPriCntSec from '../components/Project/ProjectEditorialPriCntSec';
+import ProjectEditorialPriCntTer from '../components/Project/ProjectEditorialPriCntTer';
+import ProjectEditorialPriCntQua from '../components/Project/ProjectEditorialPriCntQua';
 
 
 
@@ -14,6 +17,10 @@ const Project2 = () => {
       <Project2Description {...HomeObjTwo}/>
       <VideoDemoGrid {...HomeObjTwo} /> 
       <ProjectEditorialPriCntr {...HomeObjTwo} />
+      <ProjectEditorialPriCntSec {...HomeObjTwo} />
+      <ProjectEditorialPriCntTer {...HomeObjTwo} />
+      <ProjectEditorialPriCntQua {...HomeObjTwo} />
+
       {/* <ProjectEditiorialSec  {...HomeObjOne} />      
       <ProjectEditiorialSec  {...HomeObjOne} />      
       <ProjectEditiorialSec  {...HomeObjOne} />       */}
