@@ -25,6 +25,7 @@ import nftMarkeplaceMetatdata from '../images/nft_ui_metadata.png';
 import pandrContract from '../images/pandr_ui_contract.png';
 import pandrMinter from '../images/pandr_ui_minter.png';
 import pandrOpensea from '../images/pandr_ui_opensea.png';
+import pandrNftElements from '../images/pandr_nft_elements.png';
 import { FaReact, FaBootstrap, FaNodeJs, FaEthereum } from 'react-icons/fa';
 
 
@@ -58,7 +59,7 @@ export const SubNavbarLinks = {
     headline: 'MultiSig Wallet',
     description:
       'A multi-signature crypto wallet that runs on an Ethereum based blockchain requiring a 3 member approval to release funds.',
-    buttonLabel: 'View The Work',
+    buttonLabel: 'View Project',
     imgStart: true,
     img: svg1Url,
     towhere: '/project1',
@@ -125,7 +126,7 @@ export const SubNavbarLinks = {
     headline: 'Fuzzy Fuurzle NFT Marketplace',
     description:
       'NFT Marketplace for Ethereum based blockchains',
-    buttonLabel: 'View The Work',
+    buttonLabel: 'View Project',
     imgStart: true,
     img: svg2Url,
     towhere: '/project2',
@@ -189,7 +190,10 @@ export const SubNavbarLinks = {
 
    ImageQuatenary: nftMarkeplaceMetatdata,
    ImageQuatenaryAlt:'These are pandas',
-   ImageQuaText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+   ImageQuaText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
+
+   VideoText: 'fgsfgsdfgsdfgsdfgsdfgsdfgsdfg'
+
   };
 
   
@@ -207,7 +211,7 @@ export const HomeObjThree = {
     headline: 'A Crypto Dex',
     description:
       "A peer-to-peer marketplace that coordinates the trading of crypto assets between users",
-    buttonLabel: 'View The Work',
+    buttonLabel: 'View Project',
     imgStart: false,
     img: svg3Url,
     towhere: '/project3',
@@ -289,7 +293,7 @@ export const HomeObjThree = {
     headline: 'Pillars & Rings',
     description:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
-    buttonLabel: 'View The Work',
+    buttonLabel: 'View Project',
     imgStart: false,
     img: svg4Url,
     towhere: '/project4',
@@ -335,22 +339,22 @@ export const HomeObjThree = {
   ImagePriText:'MultiSig Wallet Interface',
   
   // ==== Image and Text Secondary ====== ///
-
-  ImageSecondary: pandrOpensea,
+  ImageSecondary: pandrNftElements,
   ImageSecondaryAlt:'These are pandas',
-  ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
+  ImageSecText:'Pillars adn Rings individual NFT Elements',
  
   // ==== Image and Text Tertiary ====== ///
 
-  ImageTertiary: pandrContract,
+  ImageTertiary: pandrOpensea,
   ImageTertiaryAlt:'These are pandas',
-  ImageTerText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
+  ImageTerText:'OpenSea Pillars and Rings Collection',
 
   // ==== Image and Text Quatenary ====== ///
-
-  ImageQuatenary: nftMarkeplaceMetatdata,
+  ImageQuatenary: pandrContract,
   ImageQuatenaryAlt:'These are pandas',
-  ImageQuaText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+  ImageQuaText:'PAR Pillars and Rings Contract on PolyScan',
+
+  VideoText: ''
  };
 
 ///////////////////////////

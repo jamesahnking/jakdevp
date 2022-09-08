@@ -223,6 +223,9 @@ export const StackItemImg = styled.img`
 export const VideoContainer = styled.div `
   background: #231412;
   /* height:500px; */
+  margin: 0 0 40px 0;
+
+
 `;
 
 export const PlayerWrapper = styled.div`

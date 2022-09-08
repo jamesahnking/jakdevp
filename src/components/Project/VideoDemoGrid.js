@@ -1,5 +1,5 @@
 import React from 'react'
-import { VideoContainer, PlayerWrapper, VideoPlayer } from "./ProjectElements";
+import { VideoContainer, PlayerWrapper, VideoPlayer,EditorialPriTextPCntr } from "./ProjectElements";
 
 const VideoDemoGrid = ({
   id,
@@ -17,7 +17,8 @@ const VideoDemoGrid = ({
   towhere,
   dark,
   dark2,
-  videoUrl
+  videoUrl,
+  VideoText
 }) => {
   
   console.log(headline);
@@ -35,6 +36,7 @@ const VideoDemoGrid = ({
             />
         </PlayerWrapper>
       </VideoContainer>
+
 
     </>
   )

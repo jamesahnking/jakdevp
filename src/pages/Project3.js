@@ -12,9 +12,9 @@ const Project3 = () => {
     <>
       <ProjectHeader {...HomeObjThree}/>
       <Project3Description {...HomeObjThree}/>
-      <VideoDemoGrid {...HomeObjThree} /> 
       <ProjectEditorialPriCntr {...HomeObjThree} />
       <ProjectEditorialPriCntSec  {...HomeObjThree} />      
+      <VideoDemoGrid {...HomeObjThree} /> 
       {/* <ProjectEditiorialSec  {...HomeObjOne} />      
       <ProjectEditiorialSec  {...HomeObjOne} />       */}
     </>

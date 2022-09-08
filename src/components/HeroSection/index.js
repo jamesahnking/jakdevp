@@ -28,7 +28,7 @@ const HeroSection = ({ img, alt }) => {
           <HeroP>JAMES AHN-KING<br />Developer - Web3 - Blockchain - Solidity - React</HeroP>
             <HeroBtnWrapper>
                 <Button 
-                  to="project1"
+                  to="project2"
                   smooth={true}
                   duration={500}
                   spy={true}

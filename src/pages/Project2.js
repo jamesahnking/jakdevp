@@ -15,11 +15,11 @@ const Project2 = () => {
     <>
       <ProjectHeader {...HomeObjTwo}/>
       <Project2Description {...HomeObjTwo}/>
-      <VideoDemoGrid {...HomeObjTwo} /> 
       <ProjectEditorialPriCntr {...HomeObjTwo} />
       <ProjectEditorialPriCntSec {...HomeObjTwo} />
       <ProjectEditorialPriCntTer {...HomeObjTwo} />
       <ProjectEditorialPriCntQua {...HomeObjTwo} />
+      <VideoDemoGrid {...HomeObjTwo} /> 
 
       {/* <ProjectEditiorialSec  {...HomeObjOne} />      
       <ProjectEditiorialSec  {...HomeObjOne} />      
