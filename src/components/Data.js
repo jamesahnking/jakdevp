@@ -134,7 +134,7 @@ export const SubNavbarLinks = {
     dark: false,
     primary: false,
     darkText: false,
-    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
+    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
     
     // ==== Tech Stack ====== ///
 
@@ -219,7 +219,7 @@ export const HomeObjThree = {
     dark: false,
     primary: false,
     darkText: true,
-    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
+    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
 
     // ==== Tech Stack ====== ///
 
@@ -301,7 +301,7 @@ export const HomeObjThree = {
     dark: false,
     primary: false,
     darkText: true,
-    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
+    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
  
           // ==== Tech Stack ====== ///
 
@@ -319,11 +319,16 @@ export const HomeObjThree = {
     Question0:'What is a Pillar & Ring?',
     Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
     Question1: 'What is Pillars & Rings?',
-    Paragraph1: 'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
-    Question2:'What is Pillars & Rings?',
-    Paragraph2: 'Security and accountability. They make cyberattacks more difficult because it increases the number of failure points a hacker has to navigate. They reduce the dependency on one person or one device. And help eliminate the security concerns of a single private key mechanism.',
+    Paragraph1: 'Pillars and Rings is a generative NFT art project of 1000 mintable assets. Each token is represented as a PAR. Each NFT consists of thirteen elements. Each element possesses a rarity trait. A unique thirteen-digit serial number is also present at the bottom left corner of each artwork and is reflected in its metadata along with each trait.',
+    Question2:'How is the project structured? ',
+    PlistItem1: 'Generative PAR Artwork and Metadata',
+    PlistItem2: 'PAR Token Minter Application',
+    PlistItem3: 'PAR Contract on Polygon',
+    PlistItem4: 'PAR Opensea Collection',
+    PlistItem5: '',
+    Paragraph2: '',
 
-    Question3:'What is Pillars & Rings?',
+    Question3:'How is the project structured?',
     AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
     Paragraph3a: 'This wallet is a 2-out-of-3 signature Dapp. Each of the 3 addresses can propose and approve transactions. They are allowed one vote per transaction. If a transaction is submitted by one member, two quorum members need to approve the transaction to be processed and released.',
     Paragraph3b: 'The signature, or address, has the right to approve or propose a transaction and transfer of funds.',
@@ -378,7 +383,7 @@ export const HomeObjThree = {
     dark: false,
     primary: false,
     darkText: true,
-    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
+    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
           // ==== Tech Stack ====== ///
 
           stackTitle: 'Tech Stack',
@@ -444,7 +449,7 @@ export const HomeObjThree = {
     dark: false,
     primary: false,
     darkText: false,
-    videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
   };
 
   ///////////////////////

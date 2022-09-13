@@ -11,6 +11,8 @@ import {
     DescriptionTitle,
     StackTitle,
     StackItemImg,
+    DescUl,
+    DescLi
   } from "./ProjectElements";
 
   
@@ -32,6 +34,11 @@ import {
   Paragraph2,
   Paragraph3a,
   Paragraph3b,
+  PlistItem1,
+  PlistItem2,
+  PlistItem3,
+  PlistItem4,
+  PlistItem5,
   
 
 }) => {
@@ -57,11 +64,20 @@ import {
                     <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
                    
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
+                    <DescUl>
+                        <DescLi>{PlistItem1}</DescLi>
+                        <DescLi>{PlistItem2}</DescLi>
+                        <DescLi>{PlistItem3}</DescLi>
+                        <DescLi>{PlistItem4}</DescLi>
+                    </DescUl>
                     <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
+
+
                                  
-                    <DescriptionTitle>{ Question3 }</DescriptionTitle>
+                                 
+                    {/* <DescriptionTitle>{ Question3 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph3a }</DescriptionTextP>
-                    <DescriptionTextP>{ Paragraph3b }</DescriptionTextP>
+                    <DescriptionTextP>{ Paragraph3b }</DescriptionTextP> */}
                     <DescriptionTitle>{ Question0 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph0 }</DescriptionTextP>
             </DescCol2>
