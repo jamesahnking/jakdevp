@@ -54,19 +54,13 @@ const Navbar = ({ toggle, img, alt }) => {
 
             <NavMenu>
               
-              <NavItem>
-                <NavLinks
-                  to="project1">
-                  Multisig Wallet{" "}
-                </NavLinks>
-              </NavItem>
-
-              <NavItem>
+            <NavItem>
                 <NavLinks
                   to="project2">
                   NFT Marketplace{" "}
                 </NavLinks>
               </NavItem>
+
 
               <NavItem>
                 <NavLinks
@@ -74,6 +68,17 @@ const Navbar = ({ toggle, img, alt }) => {
                   Crypto Dex{" "}
                 </NavLinks>
               </NavItem>
+
+
+
+              <NavItem>
+                <NavLinks
+                  to="project1">
+                  Multisig Wallet{" "}
+                </NavLinks>
+              </NavItem>
+
+          
 
               <NavItem>
                 <NavLinks

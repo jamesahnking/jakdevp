@@ -36,8 +36,6 @@ const VideoDemoGrid = ({
             />
         </PlayerWrapper>
       </VideoContainer>
-
-
     </>
   )
 }

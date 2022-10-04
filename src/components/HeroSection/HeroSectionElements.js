@@ -45,6 +45,8 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background: rgb(3,6,44);
+    background: linear-gradient(180deg, rgba(3,6,44,1) 1%, rgba(5,5,63,1) 100%);
 `;
 
 export const VideoBg = styled.video`
@@ -53,6 +55,7 @@ export const VideoBg = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
+    
 `;
 
 export const HeroContent = styled.div`

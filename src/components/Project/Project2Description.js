@@ -68,17 +68,17 @@ import {
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
 
-                    <DescUl>
+                    {/* <DescUl>
                         <DescLi>{PlistItem1}</DescLi>
                         <DescLi>{PlistItem2}</DescLi>
                         <DescLi>{PlistItem3}</DescLi>
                         <DescLi>{PlistItem4}</DescLi>
                         <DescLi>{PlistItem5}</DescLi>
-                    </DescUl>
+                    </DescUl> */}
                                  
-                    <DescriptionTitle>{ Question3 }</DescriptionTitle>
+                    {/* <DescriptionTitle>{ Question3 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph3a }</DescriptionTextP>
-                    <DescriptionTextP>{ Paragraph3b }</DescriptionTextP>
+                    <DescriptionTextP>{ Paragraph3b }</DescriptionTextP> */}
                     <DescriptionTitle>{ Question0 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph0 }</DescriptionTextP>
             </DescCol2>

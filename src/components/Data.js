@@ -67,11 +67,10 @@ export const SubNavbarLinks = {
     dark: false,
     primary: true,
     darkText: false,
-
+    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
     // ==== Tech Stack ====== ///
 
-    stackTitle: 'Tech Stack',
-    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
+    stackTitle: 'Tech Stack', 
     stackItem0:<FaEthereum/>,
     stackItem1:<FaNodeJs/>,
     stackItem2:<FaReact/>,
@@ -134,7 +133,7 @@ export const SubNavbarLinks = {
     dark: false,
     primary: false,
     darkText: false,
-    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
+    videoUrl: 'https://youtu.be/5AGj9ZiBXb8',
     
     // ==== Tech Stack ====== ///
 
@@ -154,13 +153,13 @@ export const SubNavbarLinks = {
       Question1: 'What is an NFT Marketplace?',
       Paragraph1: 'An NFT marketplace is an application that allows a user to display, trade, buy, sell, and often mint NFTs.',
       Question2:'How does the Fuzzy Fuurzle NFT marketplace function?',
-      Paragraph2: 'A user can mint an NFT using the application. They enter a name, description, image, and predetermined traits through a form. The application combines these pieces to generate and store the NFT and its parts. This application allows a user to:',
+      Paragraph2: 'A user can mint a Fuzzy Fuurzl NFT. Using a form, they enter a name, description, image, and predetermined traits. The application combines these pieces to mint the NFT into a blockchain. It then stores its metadata and asset to IPFS. Users can also mint an NFT simply by providing a valid JSON metadata link and setting a price. Users can also list their NFTs for sale, purchase from each other, and view the NFTs they own through a profile page.',
       
-      PlistItem1:'Mint an Fuzzy Furrzle NFT on an Ethereum blockchain',
-      PlistItem2:'Specify the numeric value for pre-defined Fuzzy Furrzle NFT traits.',
-      PlistItem3:'Set the price of an NFT ',
-      PlistItem4:'View NFT in the users profile',
-      PlistItem5:'List NFT for Sale on the Marketplace',
+      // PlistItem1:'Mint an Fuzzy Furrzle NFT on an Ethereum blockchain',
+      // PlistItem2:'Specify the numeric value for pre-defined Fuzzy Furrzle NFT traits.',
+      // PlistItem3:'Set the price of an NFT ',
+      // PlistItem4:'View NFT in the users profile',
+      // PlistItem5:'List NFT for Sale on the Marketplace',
       
       Question3:'What makes an NFT Marketplace that can mint NFTs useful?',      
       Paragraph3a: 'A non-technical user could use a marketplace application to generate, share, and curate their NFT project effortlessly in seconds. Minting and storing an NFT takes technical know-how, a barrier to widespread adoption.',
@@ -219,7 +218,7 @@ export const HomeObjThree = {
     dark: false,
     primary: false,
     darkText: true,
-    videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
+    videoUrl: 'https://youtu.be/YlrdiDPku6M',
 
     // ==== Tech Stack ====== ///
 
@@ -292,7 +291,7 @@ export const HomeObjThree = {
     topLine: 'Project',
     headline: 'Pillars & Rings',
     description:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
+      'A generative NFT project on Polygon.',
     buttonLabel: 'View Project',
     imgStart: false,
     img: svg4Url,
