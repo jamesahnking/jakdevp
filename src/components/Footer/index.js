@@ -36,7 +36,7 @@ const Footer = ({  img, alt}) => {
                         <Img src={img} alt={alt} />
                     </SocialLogo>
                     </ImgWrap>
-                    <WebsiteRights>James Ahn-King © 2022 All rights reserved.</WebsiteRights>
+                    <WebsiteRights>James Ahn-King © 2022. This site was built using NodeJS | React | Bootstrap</WebsiteRights>
                     <SocialIcons>
                    
                         

@@ -16,7 +16,7 @@ import {
   } from "./ProjectElements";
 
   
-  const Project3Description = ({
+  const Project4Description = ({
   
   stackTitle,
   stackItem0,  
@@ -38,7 +38,19 @@ import {
   PlistItem2,
   PlistItem3,
   PlistItem4,
-  PlistItem5,
+  TlistItem1,
+  TlistItem2,
+  TlistItem3,
+  TlistItem4,
+  TlistItem5,
+  TlistItem6,
+  TlistItem7,
+  TlistItem8,
+  TlistItem9,
+  TlistItem10,
+  TlistItem11,
+  TlistItem12,
+  TlistItem13,
   
 
 }) => {
@@ -71,13 +83,30 @@ import {
                         <DescLi>{PlistItem4}</DescLi>
                     </DescUl>
                     <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
-
-
-                                 
-                                 
-                    {/* <DescriptionTitle>{ Question3 }</DescriptionTitle>
+      
+                    <DescriptionTitle>{ Question3 }</DescriptionTitle>
+                    
+                    <DescUl>
+                        <DescLi>{TlistItem1}</DescLi>
+                        <DescLi>{TlistItem2}</DescLi>
+                        <DescLi>{TlistItem3}</DescLi>
+                        <DescLi>{TlistItem4}</DescLi>
+                        <DescLi>{TlistItem5}</DescLi>
+                        <DescLi>{TlistItem6}</DescLi>
+                        <DescLi>{TlistItem7}</DescLi>
+                        <DescLi>{TlistItem8}</DescLi>
+                        <DescLi>{TlistItem9}</DescLi>
+                        <DescLi>{TlistItem10}</DescLi>
+                        <DescLi>{TlistItem11}</DescLi>
+                        <DescLi>{TlistItem12}</DescLi>
+                        <DescLi>{TlistItem13}</DescLi>
+                    </DescUl>
+                    
+                    
+                    
                     <DescriptionTextP>{ Paragraph3a }</DescriptionTextP>
-                    <DescriptionTextP>{ Paragraph3b }</DescriptionTextP> */}
+                    <DescriptionTextP>{ Paragraph3b }</DescriptionTextP>
+                                 
                     <DescriptionTitle>{ Question0 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph0 }</DescriptionTextP>
             </DescCol2>
@@ -86,4 +115,4 @@ import {
   )
 }
 
-export default Project3Description;
+export default Project4Description;

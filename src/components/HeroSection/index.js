@@ -25,7 +25,7 @@ const HeroSection = ({ img, alt }) => {
             <ImgWrap>
           <Img src={img} alt={alt} />
             </ImgWrap>
-          <HeroP>JAMES AHN-KING<br />Fullstack Blockchain Develper</HeroP>
+          <HeroP>JAMES AHN-KING<br />Fullstack Blockchain Developer</HeroP>
             <HeroBtnWrapper>
                 <Button 
                   to="project2"

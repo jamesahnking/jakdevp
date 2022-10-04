@@ -15,8 +15,7 @@ const Project4 = () => {
     <>
       <ProjectHeader {...HomeObjFour}/>
       <Project4Description {...HomeObjFour}/>
-      <VideoDemoGrid {...HomeObjFour} /> 
-
+      {/* <VideoDemoGrid {...HomeObjFour} />  */}
       <ProjectEditorialPriCntr {...HomeObjFour} />
       <ProjectEditorialPriCntSec {...HomeObjFour} />
       <ProjectEditorialPriCntTer {...HomeObjFour} />

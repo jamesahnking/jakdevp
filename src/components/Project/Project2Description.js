@@ -55,11 +55,7 @@ import {
                     <StackItem>{ stackItem1 }</StackItem>
                     <StackItem><StackItemImg src={stackItem2} alt={"NextJS Icon"}/></StackItem>
                     <StackItem><StackItemImg src={stackItem3} alt={"Truffle Icon"}/></StackItem>
-                    <StackItem><StackItemImg src={stackItem4} alt={"Tailwidn Icon"}/></StackItem>
-                    {/* <StackItem><StackItemImg src={stackItem4} alt={"Truffle Icon"}/></StackItem>
-                    <StackItem><StackItemImg src={stackItem5} alt={"Next J"}/></StackItem> */}
-
-
+                    <StackItem><StackItemImg src={stackItem4} alt={"Tailwind Icon"}/></StackItem>
             </DescCol1>
 
             <DescCol2>                                             
@@ -67,18 +63,6 @@ import {
                     <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
-
-                    {/* <DescUl>
-                        <DescLi>{PlistItem1}</DescLi>
-                        <DescLi>{PlistItem2}</DescLi>
-                        <DescLi>{PlistItem3}</DescLi>
-                        <DescLi>{PlistItem4}</DescLi>
-                        <DescLi>{PlistItem5}</DescLi>
-                    </DescUl> */}
-                                 
-                    {/* <DescriptionTitle>{ Question3 }</DescriptionTitle>
-                    <DescriptionTextP>{ Paragraph3a }</DescriptionTextP>
-                    <DescriptionTextP>{ Paragraph3b }</DescriptionTextP> */}
                     <DescriptionTitle>{ Question0 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph0 }</DescriptionTextP>
             </DescCol2>

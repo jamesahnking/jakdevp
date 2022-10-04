@@ -1,4 +1,6 @@
 import React from "react";
+import Video from '../../videos/video4.mp4';
+
 import {
   HeaderContainer,
   HeaderBg,
@@ -6,7 +8,9 @@ import {
   HeaderP,
   Headerh1,
   TextWrapper,
-  TopLine 
+  TopLine,
+  VideoBg,
+
 
 } from "./ProjectElements";
 

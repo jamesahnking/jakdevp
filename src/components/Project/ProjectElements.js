@@ -7,14 +7,15 @@ import ReactPlayer from 'react-player'
 //////////////////////////////////////
 
 export const HeaderContainer = styled.div`
-background: black;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 50px;
-    height: 300px;
+    height: 320px;
     position: relative;
     z-index: 1;
+    background: rgb(3,6,44);
+    background: linear-gradient(180deg, rgba(3,6,44,1) 1%, rgba(5,5,63,1) 100%);
 
     
 `;
@@ -49,7 +50,7 @@ export const HeaderBg = styled.div`
 export const Headerh1 = styled.h1`
     color: #fff;
     font-size: 60px;
-    text-align: left;
+    text-align: center;
      position: relative;
      padding: 10;
 
@@ -66,7 +67,7 @@ export const HeaderP = styled.p`
     line-height:1.5em;
     color: #fff;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     @media screen and (max-width: 425px) {
       font-size: 14px;
     } 
@@ -84,6 +85,7 @@ export const TopLine = styled.div`
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.5px;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 16px;
 `;

@@ -58,7 +58,7 @@ export const SubNavbarLinks = {
     topLine: 'PROJECT',
     headline: 'MultiSig Wallet',
     description:
-      'A multi-signature crypto wallet that runs on an Ethereum based blockchain requiring a 3 member approval to release funds.',
+      'A multi-signature crypto wallet requiring a 3 member approval to release funds.',
     buttonLabel: 'View Project',
     imgStart: true,
     img: svg1Url,
@@ -149,17 +149,17 @@ export const SubNavbarLinks = {
       // ==== Description and Paragraphs ====== ///
   
       Question0:'What technolgies were used to build and test this dapp?',
-      Paragraph0: 'Solidity, NodeJS, Next JS, Tailwind, TypeScript, OpenZeppelin, and Truffle',
+      Paragraph0: 'Solidity, NodeJS, Ganache, NextJS, Truffle, Tailwind, HeadlessUI, TypeScript, and  OpenZeppelin',
       Question1: 'What is an NFT Marketplace?',
       Paragraph1: 'An NFT marketplace is an application that allows a user to display, trade, buy, sell, and often mint NFTs.',
       Question2:'How does the Fuzzy Fuurzle NFT marketplace function?',
-      Paragraph2: 'A user can mint a Fuzzy Fuurzl NFT. Using a form, they enter a name, description, image, and predetermined traits. The application combines these pieces to mint the NFT into a blockchain. It then stores its metadata and asset to IPFS. Users can also mint an NFT simply by providing a valid JSON metadata link and setting a price. Users can also list their NFTs for sale, purchase from each other, and view the NFTs they own through a profile page.',
+      Paragraph2: 'A user can mint a Fuzzy Fuurzl NFT. Using a form, they enter a name, description, image, and predetermined traits. The application combines these pieces to mint the NFT into a blockchain. It then stores its metadata and asset to IPFS. Users can also list their NFTs for sale, purchase from each other, view the NFTs they own through a profile page, and mint an NFT simply by providing a valid JSON metadata link and setting a price.',
       
-      // PlistItem1:'Mint an Fuzzy Furrzle NFT on an Ethereum blockchain',
-      // PlistItem2:'Specify the numeric value for pre-defined Fuzzy Furrzle NFT traits.',
-      // PlistItem3:'Set the price of an NFT ',
-      // PlistItem4:'View NFT in the users profile',
-      // PlistItem5:'List NFT for Sale on the Marketplace',
+      PlistItem1:'Mint an Fuzzy Furrzle NFT on an Ethereum blockchain',
+      PlistItem2:'Specify the numeric value for pre-defined Fuzzy Furrzle NFT traits.',
+      PlistItem3:'Set the price of an NFT ',
+      PlistItem4:'View NFT in the users profile',
+      PlistItem5:'List NFT for Sale on the Marketplace',
       
       Question3:'What makes an NFT Marketplace that can mint NFTs useful?',      
       Paragraph3a: 'A non-technical user could use a marketplace application to generate, share, and curate their NFT project effortlessly in seconds. Minting and storing an NFT takes technical know-how, a barrier to widespread adoption.',
@@ -176,22 +176,22 @@ export const SubNavbarLinks = {
    // ==== Image and Text Secondary ====== ///
    
    ImageSecondary: nftMarkeplaceCreate,
-   ImageSecondaryAlt:'These are pandas',
-   ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
+   ImageSecondaryAlt:'Create NFT',
+   ImageSecText:'Create NFTs Landing and Form',
   
    // ==== Image and Text Tertiary ====== ///
 
    ImageTertiary: nftMarkeplaceProfile,
-   ImageTertiaryAlt:'These are pandas',
-   ImageTerText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
+   ImageTertiaryAlt:'Account Profile Page',
+   ImageTerText:'Account Profile page',
 
    // ==== Image and Text Quatenary ====== ///
 
    ImageQuatenary: nftMarkeplaceMetatdata,
-   ImageQuatenaryAlt:'These are pandas',
-   ImageQuaText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
+   ImageQuatenaryAlt:'Create NFT from URI ',
+   ImageQuaText:'Create NFT from URI landing',
 
-   VideoText: 'fgsfgsdfgsdfgsdfgsdfgsdfgsdfg'
+   VideoText: ''
 
   };
 
@@ -291,7 +291,7 @@ export const HomeObjThree = {
     topLine: 'Project',
     headline: 'Pillars & Rings',
     description:
-      'A generative NFT project on Polygon.',
+      'A 13 trait generative NFT project minted on Polygon',
     buttonLabel: 'View Project',
     imgStart: false,
     img: svg4Url,
@@ -315,22 +315,32 @@ export const HomeObjThree = {
     
     // ==== Description and Paragraphs ====== ///
 
-    Question0:'What is a Pillar & Ring?',
-    Paragraph0: 'Solidity, NodeJS, React, Material UI, and Truffle',
+    Question0:'What technologies were used to test and build this dapp?',
+    Paragraph0: 'Solidity, NodeJS, React, Adobe Illustrator, and Adobe Photoshop',
     Question1: 'What is Pillars & Rings?',
     Paragraph1: 'Pillars and Rings is a generative NFT art project of 1000 mintable assets. Each token is represented as a PAR. Each NFT consists of thirteen elements. Each element possesses a rarity trait. A unique thirteen-digit serial number is also present at the bottom left corner of each artwork and is reflected in its metadata along with each trait.',
     Question2:'How is the project structured? ',
-    PlistItem1: 'Generative PAR Artwork and Metadata',
-    PlistItem2: 'PAR Token Minter Application',
+    Paragraph2: '',
+    PlistItem1: 'PAR Token Minter Application ',
+    PlistItem2: 'Generative PAR images assets and metadata',
     PlistItem3: 'PAR Contract on Polygon',
     PlistItem4: 'PAR Opensea Collection',
     PlistItem5: '',
-    Paragraph2: '',
-
-    Question3:'How is the project structured?',
-    AnswerC1: 'The minimum number of designated addresses that must approve a transfer before it can be sent to a recipient.',
-    Paragraph3a: 'This wallet is a 2-out-of-3 signature Dapp. Each of the 3 addresses can propose and approve transactions. They are allowed one vote per transaction. If a transaction is submitted by one member, two quorum members need to approve the transaction to be processed and released.',
-    Paragraph3b: 'The signature, or address, has the right to approve or propose a transaction and transfer of funds.',
+    
+    Question3:'What are each NFTs 13 rarity traits and the amount of variations per trait?',
+    TlistItem1: 'Background(9)',
+    TlistItem2: 'Bottom Right Digit(2)',
+    TlistItem3: 'Center Digit(2)',
+    TlistItem4: 'First Pillar(3)',
+    TlistItem5: 'First Ring(3)',
+    TlistItem6: 'Second Pillar(3)',
+    TlistItem7: 'Second Ring(3)',
+    TlistItem8: 'Third Ring(3)',
+    TlistItem9: 'Fourth Ring(3)',
+    TlistItem10: 'Fifth Ring(3)',
+    TlistItem11: 'Sixth Ring(3)',
+    TlistItem12: 'Top Left Digit(2)',
+    TlistItem13: 'Top Right Digit(2)',
 
     Question4:'Cras accumsan cursus vestibulum. Phasellus tincidunt in nibh quis rhoncus?',
     Answer4: 'Cras felis leo, vehicula sit amet dui quis, venenatis dignissim magna. Donec vitae blandit nunc, vel laoreet enim. Phasellus luctus dignissim diam',
@@ -339,13 +349,13 @@ export const HomeObjThree = {
     // ==== Image and Text Primary ====== ///
 
   ImagePrimary: pandrMinter,
-  ImagePrimaryAlt:'MultiSig Wallet Interface',
-  ImagePriText:'MultiSig Wallet Interface',
+  ImagePrimaryAlt:'Pillars adn Rin',
+  ImagePriText:'Pillars and Rings Minter',
   
   // ==== Image and Text Secondary ====== ///
   ImageSecondary: pandrNftElements,
-  ImageSecondaryAlt:'These are pandas',
-  ImageSecText:'Pillars adn Rings individual NFT Elements',
+  ImageSecondaryAlt:'Pillars and Rings Elements',
+  ImageSecText:'Pillars and Rings individual NFT Elements',
  
   // ==== Image and Text Tertiary ====== ///
 
