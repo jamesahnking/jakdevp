@@ -42,6 +42,21 @@ import {
   PlistItem5,
   PlistItem6,
   PlistItem7,
+  PlistItem8,
+  SlistItem1,
+  SlistItem2,
+  SlistItem3,
+  SlistItem4,
+  SlistItem5,
+  SlistItem6,
+  SlistItem7,
+  SlistItem8,
+  SlistItem9,
+  SlistItem10,
+  SlistItem11,
+  SlistItem12,
+  SlistItem13,
+  SlistItem14,
 
 }) => {
 
@@ -61,10 +76,17 @@ import {
             <DescCol2>                                             
                     <DescriptionTitle>{ Question1 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
+
+
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
+
                     <DescriptionTitle>{ Question0 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph0 }</DescriptionTextP>
+              
+                    {/* <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
+ 
+                 */}
             </DescCol2>
         </DescColContainer>
         </DescContainer>
