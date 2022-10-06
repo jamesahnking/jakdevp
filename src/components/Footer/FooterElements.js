@@ -29,6 +29,9 @@ export const FooterLinksContainer = styled.div`
 export const SocialMedia = styled.div`
     max-width: 1000px;
     width: 100%;
+    justify-content: center;
+
+    
     
 `;
 
@@ -49,11 +52,6 @@ export const SocialIconLink = styled.a`
     font-size: 24px;
 `;
 
-export const WebsiteRights = styled.small`
-    color: #fff;
-
-`;
-
 export const SocialMediaWrap = styled.div`
     display: flex;
     justify-content: space-between;
@@ -64,6 +62,12 @@ export const SocialMediaWrap = styled.div`
     @media screen and (max-width: 820px) {
         flex-direction: column;
     }
+
+`;
+
+export const WebsiteRights = styled.small`
+    color: #fff;
+    text-align: center;
 
 `;
 

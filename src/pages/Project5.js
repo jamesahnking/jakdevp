@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectHeader from '../components/Project/ProjectHeader';
-import Project5Description from '../components/Project/Project2Description';
+import Project5Description from '../components/Project/Project5Description';
 import { HomeObjFive } from "../components/Data";
 
 

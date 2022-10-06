@@ -138,28 +138,40 @@ export const DescriptionTextP = styled.p`
   max-width: 800px;
   font-size: 18px;
   line-height: 1.5em;
-  padding: 0px 0 10px 0;
+  padding: 0px 0 24px 0;
   color: black;
 
   @media screen and (max-width: 768px) {
     font-size: 14px;
+    padding: 0px 0px 10px 0px;
   }
 `;
 
 export const DescriptionTitle = styled.p`
 font-weight: bold;
 font-size: 18px;
-padding:20px 0px;
+padding:0px 0px 20px 0px;
 
 
 @media screen and (max-width: 768px) {
   font-size: 14px;
-  padding: 2px 0;
+  padding:0px 0px 20px 0px;
 
   }
 `;
 
-export const DescUl = styled('ol')`
+export const DescOl = styled('ol')`
+  font-size: 16px;
+  padding: 0 0 10PX 20px;
+
+  @media screen and (max-width: 768px) {
+  font-size: 14px;
+  padding: 2px 0;
+  padding: 0 0 10px 20px;
+  }
+`;
+
+export const DescUl = styled('ul')`
   font-size: 16px;
   padding: 0 0 10PX 20px;
 
@@ -184,11 +196,11 @@ export const DescLi = styled('li')`
 export const StackTitle = styled.p`
 font-weight: bold;
 font-size: 16px;
-padding: 20px 0;
+padding: 0 0 20px 0;
 
 @media screen and (max-width: 768px) {
   font-size: 14px;
-  padding: 2px 0;
+  padding: 0 0 10px 0;
   }
 `;
 
