@@ -70,7 +70,7 @@ import {
 
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
                     
-                    <DescOl>
+                    <DescUl>
                         <DescLi>{SlistItem1}</DescLi>
                         <DescLi>{SlistItem2}</DescLi>
                         <DescLi>{SlistItem3}</DescLi>
@@ -85,7 +85,7 @@ import {
                         <DescLi>{SlistItem12}</DescLi>
                         <DescLi>{SlistItem13}</DescLi>
                         <DescLi>{SlistItem14}</DescLi>
-                    </DescOl>              
+                    </DescUl>              
                     
             </DescCol2>
         </DescColContainer>

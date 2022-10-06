@@ -419,7 +419,7 @@ export const HomeObjThree = {
           PlistItem8: 'Now focused on fullstack blockchain application development',
           
           Paragraph1:'Multisignature wallets are cryptocurrency wallets that require two or more private keys to sign and send a transaction. Multisig wallets work in similar ways to bank vaults. Bank vaults are constructed to need more than one key to open. ',
-          Question2:'Skills and Exposure by project:',
+          Question2:'Skills and exposure by project:',
           SlistItem1: 'NodeJS: All',
           SlistItem2: 'Solidity: All',
           SlistItem3: 'Typescript: Nft Marketplace',

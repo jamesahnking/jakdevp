@@ -114,10 +114,10 @@ export const DescColContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   max-width: 800px;
-  padding: 40px 0 60px 0;
+  padding: 40px 0 20px 0;
 
   @media screen and (max-width: 425px) {
-    padding: 40px 0 60px 0;
+    padding: 40px 0 10px 0;
      }
 `;
 
@@ -173,7 +173,7 @@ export const DescOl = styled('ol')`
 
 export const DescUl = styled('ul')`
   font-size: 16px;
-  padding: 0 0 10PX 20px;
+  padding: 0 0 20PX 20px;
 
   @media screen and (max-width: 768px) {
   font-size: 14px;

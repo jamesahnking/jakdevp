@@ -61,8 +61,7 @@ import {
 }) => {
 
   return (
-      <DescContainer>
-        
+      <DescContainer>      
         <DescColContainer>
             <DescCol1>
                     <StackTitle>{ stackTitle }</StackTitle> 
@@ -77,19 +76,14 @@ import {
                     <DescriptionTitle>{ Question1 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
 
-
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
 
                     <DescriptionTitle>{ Question0 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph0 }</DescriptionTextP>
-              
-                    {/* <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
- 
-                 */}
             </DescCol2>
         </DescColContainer>
-        </DescContainer>
+      </DescContainer>
   )
 }
 
