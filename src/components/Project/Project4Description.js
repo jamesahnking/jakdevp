@@ -1,5 +1,5 @@
 import React from 'react';
-
+import LinkModule from '../LinkModule';
 
 import {
     DescContainer,
@@ -57,7 +57,6 @@ import {
 
   return (
       <DescContainer>
- 
         <DescColContainer>
             <DescCol1>
                     <StackTitle>{ stackTitle }</StackTitle> 
@@ -70,8 +69,10 @@ import {
             </DescCol1>
 
             <DescCol2>
+                    {/* Repo Button */}
+                    <LinkModule />
+                  
 
-                                                
                     <DescriptionTitle>{ Question1 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
                    
