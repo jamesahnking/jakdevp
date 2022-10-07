@@ -82,7 +82,6 @@ import {
                         <DescLi>{PlistItem3}</DescLi>
                         <DescLi>{PlistItem4}</DescLi>
                     </DescUl>
-                    <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
       
                     <DescriptionTitle>{ Question3 }</DescriptionTitle>
                     
@@ -101,12 +100,7 @@ import {
                         <DescLi>{TlistItem12}</DescLi>
                         <DescLi>{TlistItem13}</DescLi>
                     </DescUl>
-                    
-                    
-                    
-                    <DescriptionTextP>{ Paragraph3a }</DescriptionTextP>
-                    <DescriptionTextP>{ Paragraph3b }</DescriptionTextP>
-                                 
+   
                     <DescriptionTitle>{ Question0 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph0 }</DescriptionTextP>
             </DescCol2>

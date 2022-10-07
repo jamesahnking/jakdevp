@@ -226,7 +226,7 @@ export const HomeObjThree = {
     stackItem0:<FaEthereum/>,
     stackItem1:<FaNodeJs/>,
     stackItem2:<FaReact/>,
-    stackItem3:materialIcon,
+    stackItem3:<FaBootstrap/>,
     stackItem4:truffleIcon,
     stackItem5:'',
     stackItem6:'',

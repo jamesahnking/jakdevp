@@ -116,8 +116,12 @@ export const DescColContainer = styled.div`
   max-width: 800px;
   padding: 40px 0 20px 0;
 
+  @media screen and (max-width: 768px) {
+    padding: 20px 0 10px 0;
+     }
+
   @media screen and (max-width: 425px) {
-    padding: 40px 0 10px 0;
+    padding: 10px 0 10px 0;
      }
 `;
 
@@ -178,7 +182,7 @@ export const DescUl = styled('ul')`
   @media screen and (max-width: 768px) {
   font-size: 14px;
   padding: 2px 0;
-  padding: 0 0 10px 20px;
+  padding: 0 0 20px 20px;
   }
 `;
 
@@ -235,7 +239,7 @@ export const StackItemImg = styled.img`
 //////////////////////////////////////
 
 export const VideoContainer = styled.div `
-  background: #231412;
+  background: #00062d;
   /* height:500px; */
   margin: 0 0 40px 0;
 

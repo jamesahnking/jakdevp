@@ -55,41 +55,35 @@ import {
                     <StackItem>{ stackItem0 }</StackItem>
                     <StackItem>{ stackItem1 }</StackItem>
                     <StackItem>{ stackItem2 }</StackItem>
-                    <StackItem><StackItemImg src={stackItem3} alt={"Material UI Icon"}/></StackItem>
+                    <StackItem>{ stackItem3 }</StackItem>
                     <StackItem><StackItemImg src={stackItem4} alt={"Truffle Icon"}/></StackItem>
             </DescCol1>
 
-            <DescCol2>
-
-                                                
+            <DescCol2>                                                
                     <DescriptionTitle>{ Question1 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
                    
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph2d }</DescriptionTextP>
 
-                  
                     <DescriptionTextP>{ Paragraph2b }</DescriptionTextP>
                     <DescUl>
-            
                       <DescLi>{PlistItem5}</DescLi>
                       <DescLi>{PlistItem6}</DescLi>
                       <DescLi>{PlistItem7}</DescLi>
-
                     </DescUl> 
+                     
                     <DescriptionTextP>{ Paragraph2 }</DescriptionTextP>
-                    <DescriptionTextP>{ Paragraph2a }</DescriptionTextP>
+
                     <DescUl>
-            
                       <DescLi>{PlistItem1}</DescLi>
                       <DescLi>{PlistItem2}</DescLi>
                       <DescLi>{PlistItem3}</DescLi>
                       <DescLi>{PlistItem4}</DescLi>
-         
                     </DescUl> 
           
                     <DescriptionTextP>{ Paragraph2c }</DescriptionTextP>
-                                 
+
                     <DescriptionTitle>{ Question3 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph3a }</DescriptionTextP>
                     <DescriptionTextP>{ Paragraph3b }</DescriptionTextP>

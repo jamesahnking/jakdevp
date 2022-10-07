@@ -35,7 +35,7 @@ const HeroSection = ({ img, alt }) => {
                   exact="true"
                   offset={-20}
                 >
-                  See More
+                  See The Latest
                 </Button>
             </HeroBtnWrapper>
             
