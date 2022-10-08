@@ -368,7 +368,13 @@ export const HomeObjThree = {
   ImageQuatenaryAlt:'These are pandas',
   ImageQuaText:'PAR Pillars and Rings Contract on PolyScan',
 
-  VideoText: ''
+  VideoText:'',
+  RepoLogo0:'',
+  RepoLogo1:'',
+  RepoLogo2:'',
+  RepoLink0:'',
+  RepoLink1:'',
+  RepoLink2:'',
  };
 
 ///////////////////////////

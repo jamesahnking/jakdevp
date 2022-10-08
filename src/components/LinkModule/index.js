@@ -1,6 +1,6 @@
 import React from "react";
 import{
-    LinksContainer
+    LinksContainer, LinkTextBox, LinkLogoBox, LinkTextLink
 
 } from "./LinkModElements";
 
@@ -9,11 +9,14 @@ import{
 const LinkModule = ({
 
 }) => {
+    
     return(
         <>
             <LinksContainer>
-
-
+                <LinkLogoBox> </LinkLogoBox>
+                <LinkTextBox>  
+                    <LinkTextLink>{}</LinkTextLink>
+                </LinkTextBox>
             </LinksContainer>
 
         </>
