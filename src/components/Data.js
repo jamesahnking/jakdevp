@@ -117,6 +117,9 @@ export const SubNavbarLinks = {
     RepoLogo1:'',
     RepoLogo2:'',
     RepoLink0:'Visit the Pillars and Rings Github Repo',
+    href: 'https://github.com/jamesahnking/MultiSigWallet',
+    target:'_blank',
+    arialabel:'Multisig Crypto Wallet',
     RepoLink1:'',
     RepoLink2:'',
   
@@ -209,7 +212,10 @@ export const SubNavbarLinks = {
     RepoLogo0:'',
     RepoLogo1:'',
     RepoLogo2:'',
-    RepoLink0:'Visit the Pillars and Rings Github Repo',
+    RepoLink0:'Visit the Nft Marketplace Github Repo',
+    href: 'https://github.com/jamesahnking/nftmarketplace',
+    target:'_blank',
+    arialabel:'Nft Marketplace',
     RepoLink1:'',
     RepoLink2:'',
 
@@ -302,7 +308,10 @@ export const HomeObjThree = {
     RepoLogo0:'',
     RepoLogo1:'',
     RepoLogo2:'',
-    RepoLink0:'Visit the Pillars and Rings Github Repo',
+    RepoLink0:'Visit the Crypto Dex Github Repo',
+    href: 'https://github.com/jamesahnking/adex',
+    target:'_blank',
+    arialabel:'Decentralized Crypto Exchange',
     RepoLink1:'',
     RepoLink2:'',
   
@@ -402,6 +411,9 @@ export const HomeObjThree = {
   RepoLogo1:'',
   RepoLogo2:'',
   RepoLink0:'Visit the Pillars and Rings Github Repo',
+  href: 'https://github.com/jamesahnking/pillarsandringsmintdapp',
+  target:'_blank',
+  arialabel:'Pillars and Rings Github Repo',
   RepoLink1:'',
   RepoLink2:'',
  };

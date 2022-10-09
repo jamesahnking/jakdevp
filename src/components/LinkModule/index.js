@@ -11,32 +11,29 @@ import{
 
 
 const LinkModule = ({
-    RepoLink0
+    RepoLink0,href,target,arialabel
 }) => {
     
     return(
         <>
             <LinksContainer>
-         
                 <LinkLogoBox>
-                <LinkTextLink
-                    href="https://github.com/jamesahnking/pillarsandringsmintdapp"
-                    target="_blank"
-                    aria-label="Pillars and Rings Github Repo">
-                    <FaGithub />
-                </LinkTextLink>
+                    <LinkTextLink
+                        href={href}
+                        target={target}
+                        aria-label={arialabel}>
+                        <FaGithub />
+                    </LinkTextLink>
                 </LinkLogoBox>
                 <LinkTextBox>  
                         <LinkText
-                         href="https://github.com/jamesahnking/pillarsandringsmintdapp"
-                         target="_blank"
-                         aria-label="Pillars and Rings Github Repo">
-                        
-                                { RepoLink0 }
+                        href={href}
+                        target={target}
+                        aria-label={arialabel}>
+                        { RepoLink0 }
                         </LinkText>
                 </LinkTextBox>
             </LinksContainer>
-
         </>
     );
 };

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import ReactPlayer from 'react-player'
 
-
 //////////////////////////////////////
 // Project Header Component Styles  //
 //////////////////////////////////////
@@ -16,8 +15,6 @@ export const HeaderContainer = styled.div`
     z-index: 1;
     background: rgb(3,6,44);
     background: linear-gradient(180deg, rgba(3,6,44,1) 1%, rgba(5,5,63,1) 100%);
-
-    
 `;
 
 export const HeaderContent = styled.div`
@@ -56,10 +53,8 @@ export const Headerh1 = styled.h1`
 
      @media screen and (max-width: 425px) {
       font-size: 40px;
-    ; 
-      
+    ;       
   }
-    
 `;
 
 export const HeaderP = styled.p`
@@ -90,7 +85,6 @@ export const TopLine = styled.div`
   margin-bottom: 16px;
 `;
 
-
 ///////////////////////////////////////////
 // Project Description Component Styles  //
 ///////////////////////////////////////////
@@ -107,8 +101,6 @@ export const DescContainer = styled.div`
 
   }
 `;
-
-
 
 export const DescColContainer = styled.div`
   display: flex;
@@ -135,7 +127,6 @@ export const DescCol2 = styled.div`
   flex: 1 1 80%;
   /* background: #D3D3D3; */
 `;
-
 
 
 export const DescriptionTextP = styled.p`
@@ -242,8 +233,6 @@ export const VideoContainer = styled.div `
   background: #00062d;
   /* height:500px; */
   margin: 0 0 40px 0;
-
-
 `;
 
 export const PlayerWrapper = styled.div`
