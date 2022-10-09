@@ -6,30 +6,36 @@ export const LinksContainer = styled.div `
     justify-content: space-between;
     align-items: center;
     position: relative;
-    height: 60px;
-    background: green;
+    height: 80px;
     margin: 0px 0px 20px 0px;
-    border-radius: 5px;
-    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+    /* width: 100%; */
 
 `;
 
 
 export const LinkLogoBox = styled.div `
     width: 20%;
-    height: 100%;
-    background: orange;
+    height: 60px;
+    padding: 5px 20px;
+    /* background: orange; */
+    
+
 `;
 
 
 export const LinkTextBox = styled.div `
-    height: 100%;
+    height: 60px;
     width: 80%;
-    background: blue
+    /* background: blue; */
 `;
 
 
-export const LinkTextLink = styled.a`
-    font-size: 24px;    
+export const LinkTextLink = styled.a `
+    font-size: 46px;    
+    
 `;
+
+
 

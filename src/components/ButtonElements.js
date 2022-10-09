@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkScroll } from 'react-scroll';
 
 export const Button = styled(LinkScroll)`
-  border-radius: 25px;
+  border-radius: 50px;
   background: ${({ primary }) => (primary ? '#01BF71' : '#4a01bf')};
   white-space: nowrap;
   padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};

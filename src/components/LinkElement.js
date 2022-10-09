@@ -3,7 +3,7 @@ import{ Link }from "react-router-dom";
 
 export const ButtonLink = styled(Link)`
   text-decoration: none;  
-  border-radius: 50px;
+  border-radius: 25px;
   background: ${({ primary }) => (primary ? '#01BF71' : '#4a01bf')};
   white-space: nowrap;
   font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
