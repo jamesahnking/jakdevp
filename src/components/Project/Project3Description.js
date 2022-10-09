@@ -1,4 +1,6 @@
 import React from 'react';
+import LinkModule from '../LinkModule';
+import { HomeObjThree } from "../../components/Data";
 
 
 import {
@@ -65,7 +67,7 @@ import {
                    
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph2d }</DescriptionTextP>
-
+                    <LinkModule {...HomeObjThree}/>
                     <DescriptionTextP>{ Paragraph2b }</DescriptionTextP>
                     <DescUl>
                       <DescLi>{PlistItem5}</DescLi>

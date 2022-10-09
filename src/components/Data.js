@@ -108,7 +108,18 @@ export const SubNavbarLinks = {
 
     ImageSecondary: imgeditorial,
     ImageSecondaryAlt:'These are pandas',
-    ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+    ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
+    
+
+    // ==== Github Repo Module ====== ///
+
+    RepoLogo0:'',
+    RepoLogo1:'',
+    RepoLogo2:'',
+    RepoLink0:'Visit the Pillars and Rings Github Repo',
+    RepoLink1:'',
+    RepoLink2:'',
+  
   };
 
 
@@ -191,7 +202,16 @@ export const SubNavbarLinks = {
    ImageQuatenaryAlt:'Create NFT from URI ',
    ImageQuaText:'Create NFT from URI landing',
 
-   VideoText: ''
+   VideoText: '',
+
+  // ==== Github Repo Module ====== ///
+
+    RepoLogo0:'',
+    RepoLogo1:'',
+    RepoLogo2:'',
+    RepoLink0:'Visit the Pillars and Rings Github Repo',
+    RepoLink1:'',
+    RepoLink2:'',
 
   };
 
@@ -275,7 +295,16 @@ export const HomeObjThree = {
 
     ImageSecondary: adexUIFull,
     ImageSecondaryAlt:'These are pandas',
-    ImageSecText:'Full ADEX Interface'
+    ImageSecText:'Full ADEX Interface',
+
+    // ==== Github Repo Module ====== ///
+
+    RepoLogo0:'',
+    RepoLogo1:'',
+    RepoLogo2:'',
+    RepoLink0:'Visit the Pillars and Rings Github Repo',
+    RepoLink1:'',
+    RepoLink2:'',
   
   };
 
@@ -372,7 +401,7 @@ export const HomeObjThree = {
   RepoLogo0:'',
   RepoLogo1:'',
   RepoLogo2:'',
-  RepoLink0:'',
+  RepoLink0:'Visit the Pillars and Rings Github Repo',
   RepoLink1:'',
   RepoLink2:'',
  };
@@ -460,9 +489,18 @@ export const HomeObjThree = {
     
         ImageSecondary: imgeditorial,
         ImageSecondaryAlt:'These are pandas',
-        ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium '
+        ImageSecText:'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ',
       
-      };
+
+    // ==== Github Repo Module ====== ///
+
+        RepoLogo0:'',
+        RepoLogo1:'',
+        RepoLogo2:'',
+        RepoLink0:'Visit the Pillars and Rings Github Repo',
+        RepoLink1:'',
+        RepoLink2:'',
+          };
   
 
 ///////////////////////////

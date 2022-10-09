@@ -1,5 +1,6 @@
 import React from 'react';
 import LinkModule from '../LinkModule';
+import { HomeObjFour } from "../../components/Data";
 
 import {
     DescContainer,
@@ -69,13 +70,14 @@ import {
             </DescCol1>
 
             <DescCol2>
-                    {/* Repo Button */}
-                    <LinkModule />
-                  
+                 
 
                     <DescriptionTitle>{ Question1 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph1 }</DescriptionTextP>
                    
+                    {/* Repo Button */}
+                    <LinkModule {...HomeObjFour}/>
+
                     <DescriptionTitle>{ Question2 }</DescriptionTitle>
                     <DescUl>
                         <DescLi>{PlistItem1}</DescLi>
