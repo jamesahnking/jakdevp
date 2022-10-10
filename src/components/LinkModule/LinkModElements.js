@@ -11,8 +11,8 @@ export const LinksContainer = styled.div `
     margin: 0px 0px 30px 0px;
     border-radius: 18px;
     border: 1px solid black;
-    background: #02062E;
-    /* width: 100%; */
+    background: rgba(5,5,63,1);
+       /* width: 100%; */
 
     @media screen and (max-width: 768px) {
         width: 50%;

@@ -61,7 +61,6 @@ const Navbar = ({ toggle, img, alt }) => {
                 </NavLinks>
               </NavItem>
 
-
               <NavItem>
                 <NavLinks
                   to="project3">
@@ -69,16 +68,12 @@ const Navbar = ({ toggle, img, alt }) => {
                 </NavLinks>
               </NavItem>
 
-
-
               <NavItem>
                 <NavLinks
                   to="project1">
                   Multisig Wallet{" "}
                 </NavLinks>
               </NavItem>
-
-          
 
               <NavItem>
                 <NavLinks
@@ -121,5 +116,7 @@ const Navbar = ({ toggle, img, alt }) => {
     </>
   );
 };
+
+
 
 export default Navbar;

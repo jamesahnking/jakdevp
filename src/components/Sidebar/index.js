@@ -20,16 +20,18 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
             <SidebarMenu>
               
-                <SidebarLink to="project1" > Multisig Wallet</SidebarLink>
                 <SidebarLink to="project2" > NFT Marketplace</SidebarLink>
+                <SidebarLink to="project1" > Multisig Wallet</SidebarLink>
                 <SidebarLink to="project3" > Crypto DEX</SidebarLink>
                 <SidebarLink to="project4" > Pillars & Rings</SidebarLink>
                 <SidebarLink to="project5" > About Me</SidebarLink>
-                <SidebarLink to="project6" > CV</SidebarLink>
-
             </SidebarMenu>
             <SideBtnWrap>
-                 <SidebarRoute to='/contact'>Contact</SidebarRoute>
+                 <SidebarRoute 
+                 href=''
+                 alt=''
+                 aria-label=''
+                 >Download CV</SidebarRoute>
             </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
