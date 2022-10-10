@@ -19,7 +19,6 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
             <SidebarMenu>
-              
                 <SidebarLink to="project2" > NFT Marketplace</SidebarLink>
                 <SidebarLink to="project1" > Multisig Wallet</SidebarLink>
                 <SidebarLink to="project3" > Crypto DEX</SidebarLink>
@@ -29,7 +28,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SideBtnWrap>
                  <SidebarRoute 
                  href=''
-                 alt=''
+                 alt='_blank'
                  aria-label=''
                  >Download CV</SidebarRoute>
             </SideBtnWrap>
