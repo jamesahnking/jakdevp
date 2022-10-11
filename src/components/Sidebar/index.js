@@ -27,10 +27,10 @@ const Sidebar = ({ isOpen, toggle }) => {
             </SidebarMenu>
             <SideBtnWrap>
                  <SidebarRoute 
-                 href=''
-                 alt='_blank'
-                 aria-label=''
-                 >Download CV</SidebarRoute>
+                href='mailto:jamesahnking@gmail.com?subject=A Message for James Ahn-King from jamesahnking.com'
+                alt='_blank'
+                aria-label='contact me by email: jamesahnking@gmail.com'
+                 >Contact</SidebarRoute>
             </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

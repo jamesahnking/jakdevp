@@ -143,14 +143,14 @@ cursor: pointer;
 `;
 
 
-export const NavBtnLink = styled(LinkRouter)`
+export const NavBtnLink = styled.a`
 border-radius:25px;
 background: none;
 white-space: nowrap;
 
 padding: 10px 22px;
 color: #fff;
-font-size: 16px;
+font-size: 12px;
 outline: none;
 border: 2px #fff solid;
 cursor: pointer;

@@ -84,15 +84,14 @@ const Navbar = ({ toggle, img, alt }) => {
 
               <NavItem>
                 <NavLinks
-                      to="project5">About Me</NavLinks>
+                  to="project5">About Me</NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
               <SocialIconLink
                 href="https://github.com/jamesahnking"
                 target="_blank"
-                aria-label="Github"
-              >
+                aria-label="Github" >
                 <FaGithub />
               </SocialIconLink>
             </NavBtn>
@@ -107,7 +106,11 @@ const Navbar = ({ toggle, img, alt }) => {
             </NavBtn>
 
             <NavBtn>
-              <NavBtnLink to="/">Download CV</NavBtnLink>
+              <NavBtnLink 
+                  href='mailto:jamesahnking@gmail.com?subject=A Message for James Ahn-King from jamesahnking.com'
+                  alt='_blank'
+                  aria-label='contact me by email: jamesahnking@gmail.com'
+              >Contact JAK </NavBtnLink>
             </NavBtn>
           
           </NavbarContainer>
@@ -117,6 +120,7 @@ const Navbar = ({ toggle, img, alt }) => {
   );
 };
 
+<a href="mailto:email@example.com?subject=Mail from our Website">Send Email</a>
 
 
 export default Navbar;
