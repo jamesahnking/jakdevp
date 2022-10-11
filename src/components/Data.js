@@ -65,7 +65,7 @@ export const SubNavbarLinks = {
     towhere: '/project1',
     alt: 'Mutliple Singature Graphic',
     dark: false,
-    primary: true,
+    primary: false,
     darkText: false,
     videoUrl: 'https://www.youtube.com/watch?v=D6dyBE7U1yY',
     // ==== Tech Stack ====== ///
