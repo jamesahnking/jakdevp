@@ -62,7 +62,7 @@ import {
     
                     <DescriptionTitle>{ Question3 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph3a }</DescriptionTextP>
-                    <DescriptionTextP>{ Paragraph3b }</DescriptionTextP>
+                    {/* <DescriptionTextP>{ Paragraph3b }</DescriptionTextP> */}
                     <DescriptionTitle>{ Question0 }</DescriptionTitle>
                     <DescriptionTextP>{ Paragraph0 }</DescriptionTextP>
             </DescCol2>
