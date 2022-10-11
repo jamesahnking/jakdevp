@@ -30,7 +30,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 href='mailto:jamesahnking@gmail.com?subject=A Message for James Ahn-King from jamesahnking.com'
                 alt='_blank'
                 aria-label='contact me by email: jamesahnking@gmail.com'
-                 >Contact</SidebarRoute>
+                 >Contact JAK</SidebarRoute>
             </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
