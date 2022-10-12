@@ -27,7 +27,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </SidebarMenu>
             <SideBtnWrap>
                  <SidebarRoute 
-                href='mailto:jamesahnking@gmail.com?subject=A Message for James Ahn-King from jamesahnking.com'
+                href='https://www.linkedin.com/in/james-ahn-king-6176841/'
                 alt='_blank'
                 aria-label='contact me by email: jamesahnking@gmail.com'
                  >Contact JAK</SidebarRoute>

@@ -107,7 +107,7 @@ const Navbar = ({ toggle, img, alt }) => {
 
             <NavBtn>
               <NavBtnLink 
-                  href='mailto:jamesahnking@gmail.com?subject=A Message for James Ahn-King from jamesahnking.com'
+                  href='https://www.linkedin.com/in/james-ahn-king-6176841/'
                   alt='_blank'
                   aria-label='contact me by email: jamesahnking@gmail.com'
               >Contact JAK </NavBtnLink>
@@ -120,7 +120,6 @@ const Navbar = ({ toggle, img, alt }) => {
   );
 };
 
-<a href="mailto:email@example.com?subject=Mail from our Website">Send Email</a>
 
 
 export default Navbar;
