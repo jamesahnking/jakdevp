@@ -64,7 +64,6 @@ import {
                     <StackItem>{ stackItem0 }</StackItem>
                     <StackItem>{ stackItem1 }</StackItem>
                     <StackItem>{ stackItem2 }</StackItem>
-                    <StackItem><StackItemImg src={stackItem3} alt={"Material UI Icon"}/></StackItem>
                     <StackItem><StackItemImg src={stackItem4} alt={"Truffle Icon"}/></StackItem>
                     <StackItem><StackItemImg src={stackItem5} alt={"Truffle Icon"}/></StackItem>
             </DescCol1>
