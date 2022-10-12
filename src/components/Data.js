@@ -116,7 +116,7 @@ export const SubNavbarLinks = {
     RepoLogo0:'',
     RepoLogo1:'',
     RepoLogo2:'',
-    RepoLink0:'Visit the Pillars and Rings Github Repo',
+    RepoLink0:'Visit the Multisig Crypto Wallet Github Repo',
     href: 'https://github.com/jamesahnking/MultiSigWallet',
     target:'_blank',
     arialabel:'Multisig Crypto Wallet',
