@@ -5,6 +5,7 @@
 import jaklogopritriangle from '../images/jak_primary_tri_logo.svg';
 import jaklogotype from '../images/jaklogotype.svg';
 import imgeditorial from '../images/img_editorial.png';
+import HeroBgStill from '../images/HeroBgStill.png';
 import svg1Url from '../images/multisig_proj_gfx-01-01.svg';
 import svg2Url from '../images/fuzzyfuurzle_proj_gfx-01-01.svg';
 import svg3Url from '../images/adex_proj_gfx-01-01.svg';
@@ -546,8 +547,8 @@ export const HomeObjThree = {
   export const BrandingPriObj = {
 
     img: jaklogopritriangle,
-    alt: 'Logotype Triangle'
-
+    alt: 'Logotype Triangle',
+    stillImg: HeroBgStill,
 }
 
   ///////////////////////
